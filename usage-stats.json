@@ -1,0 +1,13 @@
+{
+  "package": "my-ig",
+  "version": "1.0.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [],
+  "profiles": {},
+  "usage": {
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ]
+  }
+}
