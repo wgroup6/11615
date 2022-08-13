@@ -5,5 +5,54 @@
     "url": "http://example.com/fhir/example",
     "version": "1.0.0",
     "name": "ExampleIG"
+  },
+  {
+    "id": "clinical-particulars",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/clinical-particulars",
+    "version": "1.0.0",
+    "name": "ClinicalParticulars"
+  },
+  {
+    "id": "group",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/group",
+    "version": "1.0.0",
+    "name": "group"
+  },
+  {
+    "id": "marketing-authorization",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/marketing-authorization",
+    "version": "1.0.0",
+    "name": "MarketingAuthorization"
+  },
+  {
+    "id": "medicinal-product",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/medicinal-product",
+    "version": "1.0.0",
+    "name": "MedicinalProduct"
+  },
+  {
+    "id": "packaged-medicinal-product",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/packaged-medicinal-product",
+    "version": "1.0.0",
+    "name": "PackagedMedicinalProduct"
+  },
+  {
+    "id": "pharmaceutical-product",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/pharmaceutical-product",
+    "version": "1.0.0",
+    "name": "PharmaceuticalProduct"
+  },
+  {
+    "id": "untyped",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/untyped",
+    "version": "1.0.0",
+    "name": "untyped"
   }
 ]
