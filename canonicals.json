@@ -28,11 +28,25 @@
     "name": "coded"
   },
   {
-    "id": "group",
+    "id": "descriptor",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/group",
+    "url": "http://example.com/fhir/example/StructureDefinition/descriptor",
     "version": "1.0.0",
-    "name": "group"
+    "name": "descriptor"
+  },
+  {
+    "id": "grouping",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/grouping",
+    "version": "1.0.0",
+    "name": "grouping"
+  },
+  {
+    "id": "text",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/text",
+    "version": "1.0.0",
+    "name": "text"
   },
   {
     "id": "timestamp",

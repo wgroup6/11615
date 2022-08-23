@@ -373,9 +373,35 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/group"
+          "reference": "StructureDefinition/descriptor"
         },
-        "name": "group",
+        "name": "descriptor",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/grouping"
+        },
+        "name": "grouping",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/text"
+        },
+        "name": "text",
         "exampleBoolean": false
       },
       {

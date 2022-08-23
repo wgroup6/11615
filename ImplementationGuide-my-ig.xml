@@ -240,9 +240,29 @@
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/group"/>
+        <reference value="StructureDefinition/descriptor"/>
       </reference>
-      <name value="group"/>
+      <name value="descriptor"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/grouping"/>
+      </reference>
+      <name value="grouping"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/text"/>
+      </reference>
+      <name value="text"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -1,22 +1,26 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 5, warn = 119, info = 0
+err = 5, warn = 129, info = 0
 IG Publisher Version: 1.1.128
-Generated Tue Aug 23 11:32:06 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
- Build Errors : 0 / 5 / 0
+Generated Tue Aug 23 12:05:26 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 0 / 7 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-InvestigationalMedicinalProduct : 1 / 7 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MedicinalProduct : 1 / 93 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-coded : 0 / 4 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-group : 0 / 4 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-descriptor : 0 / 4 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-grouping : 0 / 4 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-text : 0 / 4 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-timestamp : 0 / 4 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-untyped : 0 / 2 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/coded.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/group.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/descriptor.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/grouping.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/text.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/timestamp.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/untyped.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated/resources/ImplementationGuide-my-ig.json ==
@@ -132,11 +136,21 @@ WARNING: StructureDefinition/coded: StructureDefinition: Rule sdf-0: 'Name shoul
 WARNING: StructureDefinition/coded: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' coded '
 WARNING: StructureDefinition/coded: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' coded '
 WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/coded'): The Implementation Guide contains no examples for this data type profile
-== fsh-generated/resources/StructureDefinition-group.json ==
-WARNING: StructureDefinition/group: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: StructureDefinition/group: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' group '
-WARNING: StructureDefinition/group: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' group '
-WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/group'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-descriptor.json ==
+WARNING: StructureDefinition/descriptor: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/descriptor: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' identifier '
+WARNING: StructureDefinition/descriptor: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' identifier '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/descriptor'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-grouping.json ==
+WARNING: StructureDefinition/grouping: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/grouping: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' group '
+WARNING: StructureDefinition/grouping: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' group '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/grouping'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-text.json ==
+WARNING: StructureDefinition/text: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/text: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' text '
+WARNING: StructureDefinition/text: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' text '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/text'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-timestamp.json ==
 WARNING: StructureDefinition/timestamp: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: StructureDefinition/timestamp: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' TimeStamp '
