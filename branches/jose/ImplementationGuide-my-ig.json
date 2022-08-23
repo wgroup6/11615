@@ -360,9 +360,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/coded"
+          "reference": "StructureDefinition/CD"
         },
-        "name": "coded",
+        "name": "CD",
         "exampleBoolean": false
       },
       {
@@ -373,9 +373,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/descriptor"
+          "reference": "StructureDefinition/II"
         },
-        "name": "descriptor",
+        "name": "II",
         "exampleBoolean": false
       },
       {
@@ -386,9 +386,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/grouping"
+          "reference": "StructureDefinition/QT"
         },
-        "name": "grouping",
+        "name": "QT",
         "exampleBoolean": false
       },
       {
@@ -399,9 +399,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/text"
+          "reference": "StructureDefinition/ST"
         },
-        "name": "text",
+        "name": "ST",
         "exampleBoolean": false
       },
       {
@@ -412,9 +412,22 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/timestamp"
+          "reference": "StructureDefinition/TS"
         },
-        "name": "timestamp",
+        "name": "TS",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/class"
+        },
+        "name": "class",
         "exampleBoolean": false
       },
       {
