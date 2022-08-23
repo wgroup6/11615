@@ -356,26 +356,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
+            "valueString": "StructureDefinition:logical"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/group"
+          "reference": "StructureDefinition/MedicinalProduct"
         },
-        "name": "group",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/untyped"
-        },
-        "name": "untyped",
+        "name": "IDMP11615Authorised",
+        "description": "ISO 11615 Authorised Medicinal Product",
         "exampleBoolean": false
       },
       {
@@ -386,66 +374,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/clinical-particulars"
+          "reference": "StructureDefinition/InvestigationalMedicinalProduct"
         },
-        "name": "ClinicalParticulars",
-        "description": "Medicinal Product",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:logical"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/marketing-authorization"
-        },
-        "name": "MarketingAuthorization",
-        "description": "Medicinal Product",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:logical"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/medicinal-product"
-        },
-        "name": "MedicinalProduct",
-        "description": "Medicinal Product",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:logical"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/packaged-medicinal-product"
-        },
-        "name": "PackagedMedicinalProduct",
-        "description": "Medicinal Product",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:logical"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/pharmaceutical-product"
-        },
-        "name": "PharmaceuticalProduct",
-        "description": "Medicinal Product",
+        "name": "IDMP11615Investigational",
+        "description": "ISO 11615 Investigational Medicinal Product",
         "exampleBoolean": false
       }
     ],
@@ -457,7 +389,7 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
-          "generation": "html"
+          "generation": "markdown"
         },
         {
           "nameUrl": "changes.html",
