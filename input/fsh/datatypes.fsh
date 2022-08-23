@@ -3,36 +3,38 @@ Parent: Element
 * . ^short = "No specific data type assigned"
 * . ^definition = "No specific data type assigned"
 
-Profile: grouping
+Profile: class
 Parent: BackboneElement
 * . ^short = " group "
-* . ^definition = "Grouping"
+* . ^definition = "Class of data elements"
 
 
-Profile: coded
+Profile: CD
 Parent: Element
 * . ^short = " coded "
-* . ^definition = "Coded Element"
+* . ^definition = "Concept Descriptor"
 
 
-Profile: text
+Profile: ST
 Parent: Element
 * . ^short = " text "
-* . ^definition = "Text string"
+* . ^definition = "String"
 
-Profile: descriptor
+
+Profile: II
 Parent: Element
 * . ^short = " identifier "
-* . ^definition = "Descriptor or Identifier"
+* . ^definition = "Instance Identifier"
 
-// Profile: quantity
-// Parent: Element
-// * . ^short = " string "
-// * . ^definition = "String"
 
-Profile: timestamp
+Profile: QT
+Parent: Element
+* . ^short = " quantity "
+* . ^definition = "Quantity"
+
+
+Profile: TS
 Parent: Element
 * . ^short = " TimeStamp "
 * . ^definition = "Time stamp"
-
 
