@@ -3,7 +3,7 @@ Parent: Element
 * . ^short = "No specific data type assigned"
 * . ^definition = "No specific data type assigned"
 
-Profile: group
+Profile: grouping
 Parent: BackboneElement
 * . ^short = " group "
 * . ^definition = "Grouping"
@@ -15,15 +15,15 @@ Parent: Element
 * . ^definition = "Coded Element"
 
 
-// Profile: string
-// Parent: Element
-// * . ^short = " string "
-// * . ^definition = "String"
+Profile: text
+Parent: Element
+* . ^short = " text "
+* . ^definition = "Text string"
 
-// Profile: interval
-// Parent: Element
-// * . ^short = " string "
-// * . ^definition = "String"
+Profile: descriptor
+Parent: Element
+* . ^short = " identifier "
+* . ^definition = "Descriptor or Identifier"
 
 // Profile: quantity
 // Parent: Element
