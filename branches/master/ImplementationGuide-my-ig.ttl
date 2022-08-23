@@ -338,96 +338,28 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/group>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/group" ]
+         fhir:link <http://example.com/fhir/example/StructureDefinition/MedicinalProduct>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/MedicinalProduct" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "group" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IDMP11615Authorised" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ISO 11615 Authorised Medicinal Product" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/untyped>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/untyped" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "untyped" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 2;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/clinical-particulars>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/clinical-particulars" ]
+         fhir:link <http://example.com/fhir/example/StructureDefinition/InvestigationalMedicinalProduct>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/InvestigationalMedicinalProduct" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ClinicalParticulars" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal Product" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 3;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/marketing-authorization>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/marketing-authorization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "MarketingAuthorization" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal Product" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 4;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/medicinal-product>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/medicinal-product" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "MedicinalProduct" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal Product" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 5;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/packaged-medicinal-product>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/packaged-medicinal-product" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PackagedMedicinalProduct" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal Product" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 6;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/pharmaceutical-product>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/pharmaceutical-product" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PharmaceuticalProduct" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Medicinal Product" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "IDMP11615Investigational" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ISO 11615 Investigational Medicinal Product" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
@@ -438,7 +370,7 @@
          fhir:index 0;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
-         fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 1;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "changes.html" ];

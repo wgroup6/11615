@@ -7,52 +7,17 @@
     "name": "ExampleIG"
   },
   {
-    "id": "clinical-particulars",
+    "id": "InvestigationalMedicinalProduct",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/clinical-particulars",
+    "url": "http://example.com/fhir/example/StructureDefinition/InvestigationalMedicinalProduct",
     "version": "1.0.0",
-    "name": "ClinicalParticulars"
+    "name": "IDMP11615Investigational"
   },
   {
-    "id": "group",
+    "id": "MedicinalProduct",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/group",
+    "url": "http://example.com/fhir/example/StructureDefinition/MedicinalProduct",
     "version": "1.0.0",
-    "name": "group"
-  },
-  {
-    "id": "marketing-authorization",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/marketing-authorization",
-    "version": "1.0.0",
-    "name": "MarketingAuthorization"
-  },
-  {
-    "id": "medicinal-product",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/medicinal-product",
-    "version": "1.0.0",
-    "name": "MedicinalProduct"
-  },
-  {
-    "id": "packaged-medicinal-product",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/packaged-medicinal-product",
-    "version": "1.0.0",
-    "name": "PackagedMedicinalProduct"
-  },
-  {
-    "id": "pharmaceutical-product",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/pharmaceutical-product",
-    "version": "1.0.0",
-    "name": "PharmaceuticalProduct"
-  },
-  {
-    "id": "untyped",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/untyped",
-    "version": "1.0.0",
-    "name": "untyped"
+    "name": "IDMP11615Authorised"
   }
 ]

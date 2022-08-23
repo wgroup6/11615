@@ -227,22 +227,13 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
+        <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/group"/>
+        <reference value="StructureDefinition/MedicinalProduct"/>
       </reference>
-      <name value="group"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/untyped"/>
-      </reference>
-      <name value="untyped"/>
+      <name value="IDMP11615Authorised"/>
+      <description value="ISO 11615 Authorised Medicinal Product"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -250,54 +241,10 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/clinical-particulars"/>
+        <reference value="StructureDefinition/InvestigationalMedicinalProduct"/>
       </reference>
-      <name value="ClinicalParticulars"/>
-      <description value="Medicinal Product"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/marketing-authorization"/>
-      </reference>
-      <name value="MarketingAuthorization"/>
-      <description value="Medicinal Product"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/medicinal-product"/>
-      </reference>
-      <name value="MedicinalProduct"/>
-      <description value="Medicinal Product"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/packaged-medicinal-product"/>
-      </reference>
-      <name value="PackagedMedicinalProduct"/>
-      <description value="Medicinal Product"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/pharmaceutical-product"/>
-      </reference>
-      <name value="PharmaceuticalProduct"/>
-      <description value="Medicinal Product"/>
+      <name value="IDMP11615Investigational"/>
+      <description value="ISO 11615 Investigational Medicinal Product"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>
@@ -307,7 +254,7 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="Home"/>
-        <generation value="html"/>
+        <generation value="markdown"/>
       </page>
       <page>
         <nameUrl value="changes.html"/>
