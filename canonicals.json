@@ -7,6 +7,20 @@
     "name": "ExampleIG"
   },
   {
+    "id": "CD",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/CD",
+    "version": "1.0.0",
+    "name": "CD"
+  },
+  {
+    "id": "II",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/II",
+    "version": "1.0.0",
+    "name": "II"
+  },
+  {
     "id": "InvestigationalMedicinalProduct",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/InvestigationalMedicinalProduct",
@@ -21,39 +35,32 @@
     "name": "IDMP11615Authorised"
   },
   {
-    "id": "coded",
+    "id": "QT",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/coded",
+    "url": "http://example.com/fhir/example/StructureDefinition/QT",
     "version": "1.0.0",
-    "name": "coded"
+    "name": "QT"
   },
   {
-    "id": "descriptor",
+    "id": "ST",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/descriptor",
+    "url": "http://example.com/fhir/example/StructureDefinition/ST",
     "version": "1.0.0",
-    "name": "descriptor"
+    "name": "ST"
   },
   {
-    "id": "grouping",
+    "id": "TS",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/grouping",
+    "url": "http://example.com/fhir/example/StructureDefinition/TS",
     "version": "1.0.0",
-    "name": "grouping"
+    "name": "TS"
   },
   {
-    "id": "text",
+    "id": "class",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/text",
+    "url": "http://example.com/fhir/example/StructureDefinition/class",
     "version": "1.0.0",
-    "name": "text"
-  },
-  {
-    "id": "timestamp",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/timestamp",
-    "version": "1.0.0",
-    "name": "timestamp"
+    "name": "class"
   },
   {
     "id": "untyped",

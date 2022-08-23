@@ -230,9 +230,9 @@
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/coded"/>
+        <reference value="StructureDefinition/CD"/>
       </reference>
-      <name value="coded"/>
+      <name value="CD"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -240,9 +240,9 @@
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/descriptor"/>
+        <reference value="StructureDefinition/II"/>
       </reference>
-      <name value="descriptor"/>
+      <name value="II"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -250,9 +250,9 @@
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/grouping"/>
+        <reference value="StructureDefinition/QT"/>
       </reference>
-      <name value="grouping"/>
+      <name value="QT"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -260,9 +260,9 @@
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/text"/>
+        <reference value="StructureDefinition/ST"/>
       </reference>
-      <name value="text"/>
+      <name value="ST"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -270,9 +270,19 @@
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/timestamp"/>
+        <reference value="StructureDefinition/TS"/>
       </reference>
-      <name value="timestamp"/>
+      <name value="TS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/class"/>
+      </reference>
+      <name value="class"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
