@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "name": "CD",
   "status": "active",
-  "date": "2022-08-23T16:03:37+00:00",
+  "date": "2022-08-24T08:06:58+00:00",
   "publisher": "My Organization",
   "contact": [
     {
@@ -36,6 +36,7 @@
       ]
     }
   ],
+  "description": "Concept descriptor",
   "jurisdiction": [
     {
       "coding": [

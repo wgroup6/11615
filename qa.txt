@@ -1,10 +1,10 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 5, warn = 129, info = 0
+err = 5, warn = 120, info = 0
 IG Publisher Version: 1.1.128
-Generated Tue Aug 23 16:03:59 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
- Build Errors : 0 / 8 / 0
+Generated Wed Aug 24 08:07:16 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-CD : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-II : 0 / 3 / 1
@@ -14,17 +14,9 @@ Generated Tue Aug 23 16:03:59 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (cano
  /github/workspace/fsh-generated/resources/StructureDefinition-ST : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-TS : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-class : 0 / 4 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-untyped : 0 / 2 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/CD.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/II.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/QT.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ST.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/TS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/class.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/untyped.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated/resources/ImplementationGuide-my-ig.json ==
 ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)
 ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://example.com/fhir/example
@@ -158,6 +150,3 @@ WARNING: StructureDefinition/class: StructureDefinition: Rule sdf-0: 'Name shoul
 WARNING: StructureDefinition/class: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' group '
 WARNING: StructureDefinition/class: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' group '
 WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/class'): The Implementation Guide contains no examples for this data type profile
-== fsh-generated/resources/StructureDefinition-untyped.json ==
-WARNING: StructureDefinition/untyped: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/untyped'): The Implementation Guide contains no examples for this data type profile

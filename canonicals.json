@@ -61,12 +61,5 @@
     "url": "http://example.com/fhir/example/StructureDefinition/class",
     "version": "1.0.0",
     "name": "class"
-  },
-  {
-    "id": "untyped",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/untyped",
-    "version": "1.0.0",
-    "name": "untyped"
   }
 ]

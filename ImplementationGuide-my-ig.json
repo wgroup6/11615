@@ -363,6 +363,7 @@
           "reference": "StructureDefinition/CD"
         },
         "name": "CD",
+        "description": "Concept descriptor",
         "exampleBoolean": false
       },
       {
@@ -376,6 +377,7 @@
           "reference": "StructureDefinition/II"
         },
         "name": "II",
+        "description": "Instance Identifier",
         "exampleBoolean": false
       },
       {
@@ -389,6 +391,7 @@
           "reference": "StructureDefinition/QT"
         },
         "name": "QT",
+        "description": "Quantity",
         "exampleBoolean": false
       },
       {
@@ -402,6 +405,7 @@
           "reference": "StructureDefinition/ST"
         },
         "name": "ST",
+        "description": "String",
         "exampleBoolean": false
       },
       {
@@ -415,6 +419,7 @@
           "reference": "StructureDefinition/TS"
         },
         "name": "TS",
+        "description": "Time stamp",
         "exampleBoolean": false
       },
       {
@@ -428,19 +433,7 @@
           "reference": "StructureDefinition/class"
         },
         "name": "class",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/untyped"
-        },
-        "name": "untyped",
+        "description": "Class of data elements",
         "exampleBoolean": false
       },
       {
@@ -480,6 +473,11 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "about.html",
+          "title": "About",
           "generation": "markdown"
         },
         {
