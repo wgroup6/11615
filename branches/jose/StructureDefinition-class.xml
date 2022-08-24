@@ -10,7 +10,7 @@
   <version value="1.0.0"/>
   <name value="class"/>
   <status value="active"/>
-  <date value="2022-08-23T16:03:37+00:00"/>
+  <date value="2022-08-24T08:06:58+00:00"/>
   <publisher value="My Organization"/>
   <contact>
     <name value="My Organization"/>
@@ -31,6 +31,7 @@
       <use value="work"/>
     </telecom>
   </contact>
+  <description value="Class of data elements"/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>

@@ -233,6 +233,7 @@
         <reference value="StructureDefinition/CD"/>
       </reference>
       <name value="CD"/>
+      <description value="Concept descriptor"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -243,6 +244,7 @@
         <reference value="StructureDefinition/II"/>
       </reference>
       <name value="II"/>
+      <description value="Instance Identifier"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -253,6 +255,7 @@
         <reference value="StructureDefinition/QT"/>
       </reference>
       <name value="QT"/>
+      <description value="Quantity"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -263,6 +266,7 @@
         <reference value="StructureDefinition/ST"/>
       </reference>
       <name value="ST"/>
+      <description value="String"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -273,6 +277,7 @@
         <reference value="StructureDefinition/TS"/>
       </reference>
       <name value="TS"/>
+      <description value="Time stamp"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -283,16 +288,7 @@
         <reference value="StructureDefinition/class"/>
       </reference>
       <name value="class"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/untyped"/>
-      </reference>
-      <name value="untyped"/>
+      <description value="Class of data elements"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -324,6 +320,11 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="about.html"/>
+        <title value="About"/>
         <generation value="markdown"/>
       </page>
       <page>
