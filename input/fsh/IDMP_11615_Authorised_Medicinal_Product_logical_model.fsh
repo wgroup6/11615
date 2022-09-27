@@ -1,6 +1,6 @@
 Logical: IDMP11615Authorised
 Id: MedicinalProduct
-Description: "ISO 11615 Authorised Medicinal Product"
+Description: "ISO 11615 Authorised Medicinal Product (test)"
 * MPID 1..1 Identifier "9.2.2.2.2"
 * CombinedPharmaceuticalDoseForm 0..1 CodeableConcept "9.2.2.2.3"
 * AdditionalMonitoringIndicator 0..1 CodeableConcept "9.2.2.2.4"
