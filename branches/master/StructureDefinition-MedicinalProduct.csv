@@ -1,5 +1,5 @@
 "Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
-"MedicinalProduct","MedicinalProduct","","","",0,*,"","","","","","ISO 11615 Authorised Medicinal Product","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"MedicinalProduct","MedicinalProduct","","","",0,*,"","","","","","ISO 11615 Authorised Medicinal Product (test)","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
 "MedicinalProduct.MPID","MedicinalProduct.MPID","","","",1,1,"","","","Identifier {[]} {[]}
 ","9.2.2.2.2","9.2.2.2.2","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MPID",1,1,"",""
 "MedicinalProduct.CombinedPharmaceuticalDoseForm","MedicinalProduct.CombinedPharmaceuticalDoseForm","","","",0,1,"","","","CodeableConcept {[]} {[]}
