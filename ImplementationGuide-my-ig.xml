@@ -46,7 +46,7 @@
   <dependsOn id="hl7tx">
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="3.1.0"/>
+    <version value="4.0.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -230,10 +230,9 @@
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/CD"/>
+        <reference value="StructureDefinition/coded"/>
       </reference>
-      <name value="CD"/>
-      <description value="Concept descriptor"/>
+      <name value="coded"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -241,10 +240,9 @@
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/II"/>
+        <reference value="StructureDefinition/group"/>
       </reference>
-      <name value="II"/>
-      <description value="Instance Identifier"/>
+      <name value="group"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -252,10 +250,9 @@
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/QT"/>
+        <reference value="StructureDefinition/timestamp"/>
       </reference>
-      <name value="QT"/>
-      <description value="Quantity"/>
+      <name value="timestamp"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -263,32 +260,9 @@
         <valueString value="StructureDefinition:complex-type"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/ST"/>
+        <reference value="StructureDefinition/untyped"/>
       </reference>
-      <name value="ST"/>
-      <description value="String"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/TS"/>
-      </reference>
-      <name value="TS"/>
-      <description value="Time stamp"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/class"/>
-      </reference>
-      <name value="class"/>
-      <description value="Class of data elements"/>
+      <name value="untyped"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -314,20 +288,24 @@
       <exampleBoolean value="false"/>
     </resource>
     <page>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+        <valueUrl value="toc.html"/>
+      </extension>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
       <generation value="html"/>
       <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="index.html"/>
+        </extension>
         <nameUrl value="index.html"/>
         <title value="Home"/>
         <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="about.html"/>
-        <title value="About"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="changes.html"/>
+        </extension>
         <nameUrl value="changes.html"/>
         <title value="Changes"/>
         <generation value="html"/>

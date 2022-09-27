@@ -7,20 +7,6 @@
     "name": "ExampleIG"
   },
   {
-    "id": "CD",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/CD",
-    "version": "1.0.0",
-    "name": "CD"
-  },
-  {
-    "id": "II",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/II",
-    "version": "1.0.0",
-    "name": "II"
-  },
-  {
     "id": "InvestigationalMedicinalProduct",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/InvestigationalMedicinalProduct",
@@ -35,31 +21,31 @@
     "name": "IDMP11615Authorised"
   },
   {
-    "id": "QT",
+    "id": "coded",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/QT",
+    "url": "http://example.com/fhir/example/StructureDefinition/coded",
     "version": "1.0.0",
-    "name": "QT"
+    "name": "coded"
   },
   {
-    "id": "ST",
+    "id": "group",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/ST",
+    "url": "http://example.com/fhir/example/StructureDefinition/group",
     "version": "1.0.0",
-    "name": "ST"
+    "name": "group"
   },
   {
-    "id": "TS",
+    "id": "timestamp",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/TS",
+    "url": "http://example.com/fhir/example/StructureDefinition/timestamp",
     "version": "1.0.0",
-    "name": "TS"
+    "name": "timestamp"
   },
   {
-    "id": "class",
+    "id": "untyped",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/class",
+    "url": "http://example.com/fhir/example/StructureDefinition/untyped",
     "version": "1.0.0",
-    "name": "class"
+    "name": "untyped"
   }
 ]

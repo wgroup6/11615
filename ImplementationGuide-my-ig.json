@@ -59,7 +59,7 @@
       "id": "hl7tx",
       "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId": "hl7.terminology.r4",
-      "version": "3.1.0"
+      "version": "4.0.0"
     }
   ],
   "definition": {
@@ -360,10 +360,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/CD"
+          "reference": "StructureDefinition/coded"
         },
-        "name": "CD",
-        "description": "Concept descriptor",
+        "name": "coded",
         "exampleBoolean": false
       },
       {
@@ -374,10 +373,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/II"
+          "reference": "StructureDefinition/group"
         },
-        "name": "II",
-        "description": "Instance Identifier",
+        "name": "group",
         "exampleBoolean": false
       },
       {
@@ -388,10 +386,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/QT"
+          "reference": "StructureDefinition/timestamp"
         },
-        "name": "QT",
-        "description": "Quantity",
+        "name": "timestamp",
         "exampleBoolean": false
       },
       {
@@ -402,38 +399,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/ST"
+          "reference": "StructureDefinition/untyped"
         },
-        "name": "ST",
-        "description": "String",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/TS"
-        },
-        "name": "TS",
-        "description": "Time stamp",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:complex-type"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/class"
-        },
-        "name": "class",
-        "description": "Class of data elements",
+        "name": "untyped",
         "exampleBoolean": false
       },
       {
@@ -466,21 +434,34 @@
       }
     ],
     "page": {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl": "toc.html"
+        }
+      ],
       "nameUrl": "toc.html",
       "title": "Table of Contents",
       "generation": "html",
       "page": [
         {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "index.html"
+            }
+          ],
           "nameUrl": "index.html",
           "title": "Home",
           "generation": "markdown"
         },
         {
-          "nameUrl": "about.html",
-          "title": "About",
-          "generation": "markdown"
-        },
-        {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+              "valueUrl": "changes.html"
+            }
+          ],
           "nameUrl": "changes.html",
           "title": "Changes",
           "generation": "html"
