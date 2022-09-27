@@ -415,7 +415,7 @@
           "reference": "StructureDefinition/MedicinalProduct"
         },
         "name": "IDMP11615Authorised",
-        "description": "ISO 11615 Authorised Medicinal Product",
+        "description": "ISO 11615 Authorised Medicinal Product (test)",
         "exampleBoolean": false
       },
       {
