@@ -397,7 +397,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/MedicinalProduct" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IDMP11615Authorised" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ISO 11615 Authorised Medicinal Product (test)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ISO 11615 Authorised Medicinal Product" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 5;
