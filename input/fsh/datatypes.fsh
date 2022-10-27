@@ -1,38 +1,56 @@
-Profile: untyped
-Parent: Element
-* . ^short = "No specific data type assigned"
-* . ^definition = "No specific data type assigned"
-
-Profile: group
+Profile: Class
 Parent: BackboneElement
+Description: "Class of data elements"
 * . ^short = " group "
-* . ^definition = "Grouping"
+* . ^definition = "Class of data elements"
 
 
-Profile: coded
+Profile: CD
 Parent: Element
+Description: "Concept descriptor"
 * . ^short = " coded "
-* . ^definition = "Coded Element"
+* . ^definition = "Concept Descriptor"
 
 
-// Profile: string
-// Parent: Element
-// * . ^short = " string "
-// * . ^definition = "String"
-
-// Profile: interval
-// Parent: Element
-// * . ^short = " string "
-// * . ^definition = "String"
-
-// Profile: quantity
-// Parent: Element
-// * . ^short = " string "
-// * . ^definition = "String"
-
-Profile: timestamp
+Profile: ST
 Parent: Element
+Description: "String"
+* . ^short = " text "
+* . ^definition = "String"
+
+
+Profile: II
+Parent: Element
+Description: "Instance Identifier"
+* . ^short = " identifier "
+* . ^definition = "Instance Identifier"
+
+
+Profile: QT
+Parent: Element
+Description: "Quantity"
+* . ^short = " quantity "
+* . ^definition = "Quantity"
+
+
+Profile: RT
+Parent: Element
+Description: "Ratio"
+* . ^short = " ratio "
+* . ^definition = "Ratio"
+
+
+Profile: TS
+Parent: Element
+Description: "Time stamp"
 * . ^short = " TimeStamp "
 * . ^definition = "Time stamp"
+
+
+Profile: Bin
+Parent: Element
+Description: "Binary"
+* . ^short = " Binary "
+* . ^definition = "Binary"
 
 
