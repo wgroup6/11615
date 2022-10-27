@@ -310,45 +310,6 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "fmm-definition"
-          },
-          {
-            "url": "value",
-            "valueString": "http://hl7.org/fhir/versions.html#maturity"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "propagate-status"
-          },
-          {
-            "url": "value",
-            "valueString": "true"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension": [
-          {
-            "url": "code",
-            "valueString": "excludelogbinaryformat"
-          },
-          {
-            "url": "value",
-            "valueString": "true"
-          }
-        ],
-        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
       }
     ],
     "resource": [
@@ -360,9 +321,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/coded"
+          "reference": "StructureDefinition/Bin"
         },
-        "name": "coded",
+        "name": "Bin",
+        "description": "Binary",
         "exampleBoolean": false
       },
       {
@@ -373,9 +335,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/group"
+          "reference": "StructureDefinition/CD"
         },
-        "name": "group",
+        "name": "CD",
+        "description": "Concept descriptor",
         "exampleBoolean": false
       },
       {
@@ -386,9 +349,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/timestamp"
+          "reference": "StructureDefinition/Class"
         },
-        "name": "timestamp",
+        "name": "Class",
+        "description": "Class of data elements",
         "exampleBoolean": false
       },
       {
@@ -399,9 +363,66 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/untyped"
+          "reference": "StructureDefinition/II"
         },
-        "name": "untyped",
+        "name": "II",
+        "description": "Instance Identifier",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/QT"
+        },
+        "name": "QT",
+        "description": "Quantity",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/RT"
+        },
+        "name": "RT",
+        "description": "Ratio",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ST"
+        },
+        "name": "ST",
+        "description": "String",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:complex-type"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/TS"
+        },
+        "name": "TS",
+        "description": "Time stamp",
         "exampleBoolean": false
       },
       {

@@ -7,6 +7,34 @@
     "name": "ExampleIG"
   },
   {
+    "id": "Bin",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/Bin",
+    "version": "1.0.0",
+    "name": "Bin"
+  },
+  {
+    "id": "CD",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/CD",
+    "version": "1.0.0",
+    "name": "CD"
+  },
+  {
+    "id": "Class",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/Class",
+    "version": "1.0.0",
+    "name": "Class"
+  },
+  {
+    "id": "II",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/II",
+    "version": "1.0.0",
+    "name": "II"
+  },
+  {
     "id": "InvestigationalMedicinalProduct",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/InvestigationalMedicinalProduct",
@@ -21,31 +49,31 @@
     "name": "IDMP11615Authorised"
   },
   {
-    "id": "coded",
+    "id": "QT",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/coded",
+    "url": "http://example.com/fhir/example/StructureDefinition/QT",
     "version": "1.0.0",
-    "name": "coded"
+    "name": "QT"
   },
   {
-    "id": "group",
+    "id": "RT",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/group",
+    "url": "http://example.com/fhir/example/StructureDefinition/RT",
     "version": "1.0.0",
-    "name": "group"
+    "name": "RT"
   },
   {
-    "id": "timestamp",
+    "id": "ST",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/timestamp",
+    "url": "http://example.com/fhir/example/StructureDefinition/ST",
     "version": "1.0.0",
-    "name": "timestamp"
+    "name": "ST"
   },
   {
-    "id": "untyped",
+    "id": "TS",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/untyped",
+    "url": "http://example.com/fhir/example/StructureDefinition/TS",
     "version": "1.0.0",
-    "name": "untyped"
+    "name": "TS"
   }
 ]
