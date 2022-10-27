@@ -296,42 +296,6 @@
          fhir:Extension.valueString [ fhir:value "true" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 19;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "fmm-definition" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://hl7.org/fhir/versions.html#maturity" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 20;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "propagate-status" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "true" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
-     ], [
-       fhir:index 21;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "code" ];
-         fhir:Extension.valueString [ fhir:value "excludelogbinaryformat" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "true" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ];
      fhir:ImplementationGuide.definition.resource [
        fhir:index 0;
@@ -341,10 +305,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/coded>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/coded" ]
+         fhir:link <http://example.com/fhir/example/StructureDefinition/Bin>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Bin" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "coded" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Bin" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Binary" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
@@ -354,10 +319,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/group>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/group" ]
+         fhir:link <http://example.com/fhir/example/StructureDefinition/CD>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/CD" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "group" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CD" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Concept descriptor" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -367,10 +333,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/timestamp>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/timestamp" ]
+         fhir:link <http://example.com/fhir/example/StructureDefinition/Class>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Class" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "timestamp" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Class" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Class of data elements" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 3;
@@ -380,13 +347,70 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://example.com/fhir/example/StructureDefinition/untyped>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/untyped" ]
+         fhir:link <http://example.com/fhir/example/StructureDefinition/II>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/II" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "untyped" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "II" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Instance Identifier" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.com/fhir/example/StructureDefinition/QT>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/QT" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "QT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Quantity" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.com/fhir/example/StructureDefinition/RT>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/RT" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "RT" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Ratio" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.com/fhir/example/StructureDefinition/ST>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ST" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ST" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "String" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.com/fhir/example/StructureDefinition/TS>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/TS" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "TS" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Time stamp" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -400,7 +424,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ISO 11615 Authorised Medicinal Product" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

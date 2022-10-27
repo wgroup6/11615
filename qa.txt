@@ -1,30 +1,49 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 5, warn = 3413, info = 0
-IG Publisher Version: 1.2.3
-Generated Tue Sep 27 11:57:38 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+err = 3, warn = 3421, info = 0
+IG Publisher Version: 1.2.11
+Generated Thu Oct 27 11:55:33 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 0 / 5 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-InvestigationalMedicinalProduct : 1 / 1551 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-MedicinalProduct : 1 / 1843 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-coded : 0 / 4 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-group : 0 / 4 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-timestamp : 0 / 4 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-untyped : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Bin : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-CD : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Class : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-II : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-InvestigationalMedicinalProduct : 0 / 1550 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-MedicinalProduct : 0 / 1842 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-QT : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-RT : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ST : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-TS : 0 / 3 / 1
 </table>
 == n/a ==
 WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/coded.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/group.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/timestamp.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/untyped.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-my-ig.json ==
 ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)
 ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://example.com/fhir/example
 ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example
+== fsh-generated/resources/StructureDefinition-Bin.json ==
+WARNING: StructureDefinition/Bin: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' Binary '
+WARNING: StructureDefinition/Bin: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' Binary '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/Bin'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-CD.json ==
+WARNING: StructureDefinition/CD: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' coded '
+WARNING: StructureDefinition/CD: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' coded '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/CD'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-Class.json ==
+WARNING: StructureDefinition/Class: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' group '
+WARNING: StructureDefinition/Class: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' group '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/Class'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-II.json ==
+WARNING: StructureDefinition/II: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' identifier '
+WARNING: StructureDefinition/II: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' identifier '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/II'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-InvestigationalMedicinalProduct.json ==
-ERROR: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
 WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.snapshot.element[1]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
 WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.snapshot.element[2]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
 WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.snapshot.element[3]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
@@ -1575,9 +1594,7 @@ WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinitio
 WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.differential.element[772]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
 WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.differential.element[773]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
 WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.differential.element[774]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
-WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
 == fsh-generated/resources/StructureDefinition-MedicinalProduct.json ==
-ERROR: StructureDefinition/MedicinalProduct: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
 WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[1]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
 WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[2]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
 WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[3]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
@@ -3420,22 +3437,19 @@ WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.
 WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[919]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
 WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[920]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
 WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[921]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
-WARNING: StructureDefinition/MedicinalProduct: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
-== fsh-generated/resources/StructureDefinition-coded.json ==
-WARNING: StructureDefinition/coded: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: StructureDefinition/coded: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' coded '
-WARNING: StructureDefinition/coded: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' coded '
-WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/coded'): The Implementation Guide contains no examples for this data type profile
-== fsh-generated/resources/StructureDefinition-group.json ==
-WARNING: StructureDefinition/group: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: StructureDefinition/group: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' group '
-WARNING: StructureDefinition/group: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' group '
-WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/group'): The Implementation Guide contains no examples for this data type profile
-== fsh-generated/resources/StructureDefinition-timestamp.json ==
-WARNING: StructureDefinition/timestamp: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: StructureDefinition/timestamp: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' TimeStamp '
-WARNING: StructureDefinition/timestamp: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' TimeStamp '
-WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/timestamp'): The Implementation Guide contains no examples for this data type profile
-== fsh-generated/resources/StructureDefinition-untyped.json ==
-WARNING: StructureDefinition/untyped: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/untyped'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-QT.json ==
+WARNING: StructureDefinition/QT: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' quantity '
+WARNING: StructureDefinition/QT: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' quantity '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/QT'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-RT.json ==
+WARNING: StructureDefinition/RT: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' ratio '
+WARNING: StructureDefinition/RT: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' ratio '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/RT'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-ST.json ==
+WARNING: StructureDefinition/ST: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' text '
+WARNING: StructureDefinition/ST: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' text '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/ST'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-TS.json ==
+WARNING: StructureDefinition/TS: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' TimeStamp '
+WARNING: StructureDefinition/TS: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' TimeStamp '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/TS'): The Implementation Guide contains no examples for this data type profile
