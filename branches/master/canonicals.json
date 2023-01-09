@@ -1,79 +1,79 @@
 [
   {
-    "id": "my-ig",
-    "type": "ImplementationGuide",
-    "url": "http://example.com/fhir/example",
-    "version": "1.0.0",
-    "name": "ExampleIG"
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
   },
   {
-    "id": "Bin",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/Bin",
-    "version": "1.0.0",
-    "name": "Bin"
+    "id" : "Bin",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/Bin",
+    "version" : "1.0.0",
+    "name" : "Bin"
   },
   {
-    "id": "CD",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/CD",
-    "version": "1.0.0",
-    "name": "CD"
+    "id" : "CD",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/CD",
+    "version" : "1.0.0",
+    "name" : "CD"
   },
   {
-    "id": "Class",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/Class",
-    "version": "1.0.0",
-    "name": "Class"
+    "id" : "Class",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/Class",
+    "version" : "1.0.0",
+    "name" : "Class"
   },
   {
-    "id": "II",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/II",
-    "version": "1.0.0",
-    "name": "II"
+    "id" : "II",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/II",
+    "version" : "1.0.0",
+    "name" : "II"
   },
   {
-    "id": "InvestigationalMedicinalProduct",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/InvestigationalMedicinalProduct",
-    "version": "1.0.0",
-    "name": "IDMP11615Investigational"
+    "id" : "InvestigationalMedicinalProduct",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/InvestigationalMedicinalProduct",
+    "version" : "1.0.0",
+    "name" : "IDMP11615Investigational"
   },
   {
-    "id": "MedicinalProduct",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/MedicinalProduct",
-    "version": "1.0.0",
-    "name": "IDMP11615Authorised"
+    "id" : "MedicinalProduct",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/MedicinalProduct",
+    "version" : "1.0.0",
+    "name" : "IDMP11615Authorised"
   },
   {
-    "id": "QT",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/QT",
-    "version": "1.0.0",
-    "name": "QT"
+    "id" : "QT",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/QT",
+    "version" : "1.0.0",
+    "name" : "QT"
   },
   {
-    "id": "RT",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/RT",
-    "version": "1.0.0",
-    "name": "RT"
+    "id" : "RT",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/RT",
+    "version" : "1.0.0",
+    "name" : "RT"
   },
   {
-    "id": "ST",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/ST",
-    "version": "1.0.0",
-    "name": "ST"
+    "id" : "ST",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/ST",
+    "version" : "1.0.0",
+    "name" : "ST"
   },
   {
-    "id": "TS",
-    "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/StructureDefinition/TS",
-    "version": "1.0.0",
-    "name": "TS"
+    "id" : "TS",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/TS",
+    "version" : "1.0.0",
+    "name" : "TS"
   }
 ]
