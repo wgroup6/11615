@@ -9,48 +9,47 @@ Profile: CD
 Parent: Element
 Description: "Concept descriptor"
 * . ^short = " coded "
-* . ^definition = "Concept Descriptor"
+* . ^definition = "A reference to a concept defined in a code system.  A concept descriptor can contain the original text or phrase that served as the basis of the coding and one or more translations into different coding systems. A concept descriptor can also contain qualifiers.  When CD is used, additional components of the data type should be used."
 
 
-Profile: ST
+Profile: ED
 Parent: Element
-Description: "String"
-* . ^short = " text "
-* . ^definition = "String"
+Description: "Encapsulated data"
+* . ^short = " Encapsulated data "
+* . ^definition = "Data that is primarily intended for human interpretation or for further machine processing by the receiving system. Additional data elements may be needed to convey information about the type and encoding of the encapsulated data (e.g., media type and character set)."
 
 
 Profile: II
 Parent: Element
 Description: "Instance Identifier"
 * . ^short = " identifier "
-* . ^definition = "Instance Identifier"
+* . ^definition = "An identifier that uniquely identifies a thing or object. Additional information is provided to convey its root, which is a unique identifier that guarantees the global uniqueness of the instance identifier. The root alone may be the entire instance identifier. Note that II does not identify the type of the object being identified, or the type of the association between the object and the identifier - it is only the identifier itself.   EX: BAID, MPID, PCID, PhPID, medical record number, etc."
 
 
-Profile: QT
+Profile: PQ
 Parent: Element
 Description: "Quantity"
 * . ^short = " quantity "
-* . ^definition = "Quantity"
+* . ^definition = "PQ is a dimensioned quantity expressing the result of measuring and must specify a unit of measurement"
 
 
-Profile: RT
+Profile: RTO
 Parent: Element
 Description: "Ratio"
 * . ^short = " ratio "
-* . ^definition = "Ratio"
+* . ^definition = "A quantity constructed as the quotient of a numerator quantity divided by a denominator quantity."
+ 
+
+Profile: ST
+Parent: Element
+Description: "String"
+* . ^short = " text "
+* . ^definition = "Primarily used for names, symbols, and formal expressions."
 
 
 Profile: TS
 Parent: Element
 Description: "Time stamp"
 * . ^short = " TimeStamp "
-* . ^definition = "Time stamp"
-
-
-Profile: Bin
-Parent: Element
-Description: "Binary"
-* . ^short = " Binary "
-* . ^definition = "Binary"
-
+* . ^definition = "A quantity specifying a point on the axis of natural time. A point in time is most often represented as a calendar expression. Note that the simple expression of Date is used in logical model, which can be expressed as a partial date (e.g., just year or year + month) as used in human communication."
 
