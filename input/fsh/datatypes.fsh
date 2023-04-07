@@ -75,7 +75,7 @@ Description: "Contact Telecom"
 * . ^definition = "A contact point for a person or organization."
 
 
-Profile: ADDR
+Profile: AD
 Parent: Element
 Description: "Address"
 * . ^short = " Address "
