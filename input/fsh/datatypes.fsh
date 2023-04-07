@@ -53,3 +53,30 @@ Description: "Time stamp"
 * . ^short = " TimeStamp "
 * . ^definition = "A quantity specifying a point on the axis of natural time. A point in time is most often represented as a calendar expression. Note that the simple expression of Date is used in logical model, which can be expressed as a partial date (e.g., just year or year + month) as used in human communication."
 
+
+Profile: DT
+Parent: Element
+Description: "Date"
+* . ^short = " Date "
+* . ^definition = "A specific date, most often represented as a calendar expression. Note that the simple expression of Date is used in logical model, which can be expressed as a partial date (e.g., just year or year + month) as used in human communication."
+
+
+Profile: PN
+Parent: Element
+Description: "Person Name"
+* . ^short = " Person Name "
+* . ^definition = "A person's name, which may be structured in different parts like given, family, titles, etc."
+
+
+Profile: TEL
+Parent: Element
+Description: "Contact Telecom"
+* . ^short = " Contact telecom "
+* . ^definition = "A contact point for a person or organization."
+
+
+Profile: ADDR
+Parent: Element
+Description: "Address"
+* . ^short = " Address "
+* . ^definition = "A contact address, typically a physical address."
