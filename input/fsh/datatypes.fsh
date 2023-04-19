@@ -19,6 +19,13 @@ Description: "Encapsulated data"
 * . ^definition = "Data that is primarily intended for human interpretation or for further machine processing by the receiving system. Additional data elements may be needed to convey information about the type and encoding of the encapsulated data (e.g., media type and character set)."
 
 
+Profile: BL
+Parent: Element
+Description: "Boolean"
+* . ^short = " Boolean "
+* . ^definition = "A binary value for use in Boolean logic. A BL value can be either true or false, or, as any other value may be null."
+
+
 Profile: II
 Parent: Element
 Description: "Instance Identifier"
