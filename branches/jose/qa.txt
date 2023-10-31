@@ -1,0 +1,152 @@
+﻿ExampleIG : Validation Results
+=========================================
+
+err = 5, warn = 120, info = 0
+IG Publisher Version: 1.1.128
+Generated Wed Aug 24 08:08:20 UTC 2022. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 0 / 1 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-CD : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-II : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-InvestigationalMedicinalProduct : 1 / 7 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-MedicinalProduct : 1 / 93 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-QT : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-ST : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-TS : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-class : 0 / 4 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+== fsh-generated/resources/ImplementationGuide-my-ig.json ==
+ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://example.com/fhir/example
+ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example
+== fsh-generated/resources/StructureDefinition-CD.json ==
+WARNING: StructureDefinition/CD: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' coded '
+WARNING: StructureDefinition/CD: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' coded '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/CD'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-II.json ==
+WARNING: StructureDefinition/II: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' identifier '
+WARNING: StructureDefinition/II: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' identifier '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/II'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-InvestigationalMedicinalProduct.json ==
+ERROR: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.snapshot.element[1]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.snapshot.element[2]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.snapshot.element[3]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.differential.element[1]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.differential.element[2]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition.differential.element[3]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/InvestigationalMedicinalProduct: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+== fsh-generated/resources/StructureDefinition-MedicinalProduct.json ==
+ERROR: StructureDefinition/MedicinalProduct: StructureDefinition.baseDefinition: Canonical URL 'http://hl7.org/fhir/StructureDefinition/Base' does not resolve
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[1]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[2]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[3]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[4]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[5]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[6]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[7]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[8]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[9]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[10]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[11]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[12]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[13]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[14]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[15]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[16]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[17]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[18]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[19]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[20]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[21]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[22]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[23]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[24]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[25]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[26]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[27]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[28]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[29]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[30]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[31]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[32]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[33]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[34]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[35]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[36]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[37]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[38]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[39]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[40]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[41]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[42]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[43]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[44]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[45]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.snapshot.element[46]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[1]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[2]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[3]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[4]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[5]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[6]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[7]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[8]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[9]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[10]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[11]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[12]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[13]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[14]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[15]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[16]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[17]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[18]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[19]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[20]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[21]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[22]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[23]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[24]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[25]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[26]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[27]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[28]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[29]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[30]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[31]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[32]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[33]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[34]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[35]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[36]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[37]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[38]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[39]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[40]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[41]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[42]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[43]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[44]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[45]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition.differential.element[46]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/MedicinalProduct: StructureDefinition: Unable to find base http://hl7.org/fhir/StructureDefinition/Base for StructureDefinition, so can't check the differential
+== fsh-generated/resources/StructureDefinition-QT.json ==
+WARNING: StructureDefinition/QT: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' quantity '
+WARNING: StructureDefinition/QT: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' quantity '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/QT'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-ST.json ==
+WARNING: StructureDefinition/ST: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' text '
+WARNING: StructureDefinition/ST: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' text '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/ST'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-TS.json ==
+WARNING: StructureDefinition/TS: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' TimeStamp '
+WARNING: StructureDefinition/TS: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' TimeStamp '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/TS'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-class.json ==
+WARNING: StructureDefinition/class: StructureDefinition: Rule sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: StructureDefinition/class: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace ' group '
+WARNING: StructureDefinition/class: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace ' group '
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/class'): The Implementation Guide contains no examples for this data type profile

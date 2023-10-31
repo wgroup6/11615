@@ -1,0 +1,1780 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "MedicinalProduct",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct\" title=\"ISO 11615 Authorised Medicinal Product\">MedicinalProduct</a><a name=\"MedicinalProduct\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MPID\" title=\"9.2.2.2.2\">MPID</a><a name=\"MedicinalProduct.MPID\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-II.html\" title=\"Element\">II</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.2.2</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.CombinedPharmaceuticalDoseForm\" title=\"9.2.2.2.3\">CombinedPharmaceuticalDoseForm</a><a name=\"MedicinalProduct.CombinedPharmaceuticalDoseForm\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.2.3</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.AdditionalMonitoringIndicator\" title=\"9.2.2.2.4\">AdditionalMonitoringIndicator</a><a name=\"MedicinalProduct.AdditionalMonitoringIndicator\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.2.4</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.SpecialMeasures\" title=\"9.2.2.2.5\">SpecialMeasures</a><a name=\"MedicinalProduct.SpecialMeasures\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.2.5<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.PaediatricUseIndicator\" title=\"9.2.2.2.6\">PaediatricUseIndicator</a><a name=\"MedicinalProduct.PaediatricUseIndicator\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.2.6</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignationStatus\" title=\"9.2.2.2.7\">OrphanDesignationStatus</a><a name=\"MedicinalProduct.OrphanDesignationStatus\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.2.7</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header\" title=\"9.2.2.10\">Header</a><a name=\"MedicinalProduct.Header\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-class.html\" title=\"BackboneElement\">class</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.10</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header.II\" title=\"9.2.2.10.2\">II</a><a name=\"MedicinalProduct.Header.II\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-II.html\" title=\"Element\">II</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.10.2</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header.EffectiveDate\" title=\"9.2.2.10.3\">EffectiveDate</a><a name=\"MedicinalProduct.Header.EffectiveDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.10.3</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header.Language\" title=\"9.2.2.10.4\">Language</a><a name=\"MedicinalProduct.Header.Language\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.10.4</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header.VersionNumber\" title=\"9.2.2.10.5\">VersionNumber</a><a name=\"MedicinalProduct.Header.VersionNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.10.5</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header.VersionSetII\" title=\"9.2.2.10.6\">VersionSetII</a><a name=\"MedicinalProduct.Header.VersionSetII\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-II.html\" title=\"Element\">II</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.10.6</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MasterFile\" title=\"9.2.2.5\">MasterFile</a><a name=\"MedicinalProduct.MasterFile\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-class.html\" title=\"BackboneElement\">class</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.5<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MasterFile.FileType\" title=\"9.2.2.5.2\">FileType</a><a name=\"MedicinalProduct.MasterFile.FileType\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.5.2</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MasterFile.FileCode\" title=\"9.2.2.5.3\">FileCode</a><a name=\"MedicinalProduct.MasterFile.FileCode\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-II.html\" title=\"Element\">II</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.5.3</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName\" title=\"9.2.2.8\">MedicinalProductName</a><a name=\"MedicinalProduct.MedicinalProductName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-class.html\" title=\"BackboneElement\">class</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.FullName\" title=\"9.2.2.8.2\">FullName</a><a name=\"MedicinalProduct.MedicinalProductName.FullName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.2</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.InventedNamePart\" title=\"9.2.2.8.3\">InventedNamePart</a><a name=\"MedicinalProduct.MedicinalProductName.InventedNamePart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.3<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.ScientificNamePart\" title=\"9.2.2.8.4\">ScientificNamePart</a><a name=\"MedicinalProduct.MedicinalProductName.ScientificNamePart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.4<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.StrengthPart\" title=\"9.2.2.8.5\">StrengthPart</a><a name=\"MedicinalProduct.MedicinalProductName.StrengthPart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.5<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart\" title=\"9.2.2.8.6\">PharmaceuticalDoseFormPart</a><a name=\"MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.6<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.FormulationPart\" title=\"9.2.2.8.7\">FormulationPart</a><a name=\"MedicinalProduct.MedicinalProductName.FormulationPart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.7<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.IntendedUsePart\" title=\"9.2.2.8.8\">IntendedUsePart</a><a name=\"MedicinalProduct.MedicinalProductName.IntendedUsePart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.8<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.TargetPopulationPart\" title=\"9.2.2.8.9\">TargetPopulationPart</a><a name=\"MedicinalProduct.MedicinalProductName.TargetPopulationPart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.9<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.ContainerOrPackPart\" title=\"9.2.2.8.10\">ContainerOrPackPart</a><a name=\"MedicinalProduct.MedicinalProductName.ContainerOrPackPart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.10<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.DevicePart\" title=\"9.2.2.8.11\">DevicePart</a><a name=\"MedicinalProduct.MedicinalProductName.DevicePart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.11<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart\" title=\"9.2.2.8.12\">TrademarkOrCompanyNamePart</a><a name=\"MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.12<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.Time-PeriodPart\" title=\"9.2.2.8.13\">Time-PeriodPart</a><a name=\"MedicinalProduct.MedicinalProductName.Time-PeriodPart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.13<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.FlavourPart\" title=\"9.2.2.8.14\">FlavourPart</a><a name=\"MedicinalProduct.MedicinalProductName.FlavourPart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.14<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.DelimiterPart\" title=\"9.2.2.8.15\">DelimiterPart</a><a name=\"MedicinalProduct.MedicinalProductName.DelimiterPart\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-ST.html\" title=\"Element\">ST</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.8.15<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.Country-Language\" title=\"9.2.2.9\">Country-Language</a><a name=\"MedicinalProduct.MedicinalProductName.Country-Language\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-class.html\" title=\"BackboneElement\">class</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.9<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.Country-Language.Country\" title=\"9.2.2.9.2\">Country</a><a name=\"MedicinalProduct.MedicinalProductName.Country-Language.Country\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.9.2</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction\" title=\"9.2.2.9.3\">Jurisdiction</a><a name=\"MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.9.3</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.Country-Language.Language\" title=\"9.2.2.9.4\">Language</a><a name=\"MedicinalProduct.MedicinalProductName.Country-Language.Language\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.9.4</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation\" title=\"9.2.2.3\">OrphanDesignation</a><a name=\"MedicinalProduct.OrphanDesignation\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-class.html\" title=\"BackboneElement\">class</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.3<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation.OrphanIndicationType\" title=\"9.2.2.3.2\">OrphanIndicationType</a><a name=\"MedicinalProduct.OrphanDesignation.OrphanIndicationType\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.3.2</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation.OrphanProcedureNumber\" title=\"9.2.2.3.3\">OrphanProcedureNumber</a><a name=\"MedicinalProduct.OrphanDesignation.OrphanProcedureNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-II.html\" title=\"Element\">II</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.3.3</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus\" title=\"9.2.2.3.4\">OrphanDesignationAuthorisationStatus</a><a name=\"MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.3.4</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate\" title=\"9.2.2.3.5\">OrphanDesignationAuthorisationDate</a><a name=\"MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.3.5</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation.OrphanDesignationNumber\" title=\"9.2.2.3.6\">OrphanDesignationNumber</a><a name=\"MedicinalProduct.OrphanDesignation.OrphanDesignationNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-II.html\" title=\"Element\">II</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.3.6</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductClassification\" title=\"9.2.2.4\">ProductClassification</a><a name=\"MedicinalProduct.ProductClassification\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-class.html\" title=\"BackboneElement\">class</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.4<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductClassification.CodeSystem\" title=\"9.2.2.4.2\">CodeSystem</a><a name=\"MedicinalProduct.ProductClassification.CodeSystem\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.4.2</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductClassification.Value\" title=\"9.2.2.4.3\">Value</a><a name=\"MedicinalProduct.ProductClassification.Value\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.4.3</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductCross-Reference\" title=\"9.2.2.7\">ProductCross-Reference</a><a name=\"MedicinalProduct.ProductCross-Reference\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-class.html\" title=\"BackboneElement\">class</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.7<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductCross-Reference.I-MPIDCross-Reference\" title=\"9.2.2.7.2\">I_MPIDCross-Reference</a><a name=\"MedicinalProduct.ProductCross-Reference.I_MPIDCross-Reference\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-II.html\" title=\"Element\">II</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.7.2</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductCross-Reference.ReferencedProductType\" title=\"9.2.2.7.3\">ReferencedProductType</a><a name=\"MedicinalProduct.ProductCross-Reference.ReferencedProductType\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-CD.html\" title=\"Element\">CD</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9.2.2.7.3</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url": "http://example.com/fhir/example/StructureDefinition/MedicinalProduct",
+  "version": "1.0.0",
+  "name": "IDMP11615Authorised",
+  "status": "active",
+  "date": "2022-08-24T08:07:55+00:00",
+  "publisher": "My Organization",
+  "contact": [
+    {
+      "name": "My Organization",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.com/committees"
+        },
+        {
+          "system": "email",
+          "value": "my-group@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "bobsmith@example.com",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "ISO 11615 Authorised Medicinal Product",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "http://example.com/fhir/example/StructureDefinition/MedicinalProduct",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "MedicinalProduct",
+        "path": "MedicinalProduct",
+        "definition": "ISO 11615 Authorised Medicinal Product",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "Base",
+          "min": 0,
+          "max": "*"
+        },
+        "isModifier": false
+      },
+      {
+        "id": "MedicinalProduct.MPID",
+        "path": "MedicinalProduct.MPID",
+        "short": "9.2.2.2.2",
+        "definition": "9.2.2.2.2",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.MPID",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.CombinedPharmaceuticalDoseForm",
+        "path": "MedicinalProduct.CombinedPharmaceuticalDoseForm",
+        "short": "9.2.2.2.3",
+        "definition": "9.2.2.2.3",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.CombinedPharmaceuticalDoseForm",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.AdditionalMonitoringIndicator",
+        "path": "MedicinalProduct.AdditionalMonitoringIndicator",
+        "short": "9.2.2.2.4",
+        "definition": "9.2.2.2.4",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.AdditionalMonitoringIndicator",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.SpecialMeasures",
+        "path": "MedicinalProduct.SpecialMeasures",
+        "short": "9.2.2.2.5",
+        "definition": "9.2.2.2.5",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.SpecialMeasures",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.PaediatricUseIndicator",
+        "path": "MedicinalProduct.PaediatricUseIndicator",
+        "short": "9.2.2.2.6",
+        "definition": "9.2.2.2.6",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.PaediatricUseIndicator",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignationStatus",
+        "path": "MedicinalProduct.OrphanDesignationStatus",
+        "short": "9.2.2.2.7",
+        "definition": "9.2.2.2.7",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.OrphanDesignationStatus",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header",
+        "path": "MedicinalProduct.Header",
+        "short": "9.2.2.10",
+        "definition": "9.2.2.10",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.Header",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header.II",
+        "path": "MedicinalProduct.Header.II",
+        "short": "9.2.2.10.2",
+        "definition": "9.2.2.10.2",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.Header.II",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header.EffectiveDate",
+        "path": "MedicinalProduct.Header.EffectiveDate",
+        "short": "9.2.2.10.3",
+        "definition": "9.2.2.10.3",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.Header.EffectiveDate",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header.Language",
+        "path": "MedicinalProduct.Header.Language",
+        "short": "9.2.2.10.4",
+        "definition": "9.2.2.10.4",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.Header.Language",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header.VersionNumber",
+        "path": "MedicinalProduct.Header.VersionNumber",
+        "short": "9.2.2.10.5",
+        "definition": "9.2.2.10.5",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.Header.VersionNumber",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header.VersionSetII",
+        "path": "MedicinalProduct.Header.VersionSetII",
+        "short": "9.2.2.10.6",
+        "definition": "9.2.2.10.6",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.Header.VersionSetII",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MasterFile",
+        "path": "MedicinalProduct.MasterFile",
+        "short": "9.2.2.5",
+        "definition": "9.2.2.5",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MasterFile",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MasterFile.FileType",
+        "path": "MedicinalProduct.MasterFile.FileType",
+        "short": "9.2.2.5.2",
+        "definition": "9.2.2.5.2",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.MasterFile.FileType",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MasterFile.FileCode",
+        "path": "MedicinalProduct.MasterFile.FileCode",
+        "short": "9.2.2.5.3",
+        "definition": "9.2.2.5.3",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.MasterFile.FileCode",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName",
+        "path": "MedicinalProduct.MedicinalProductName",
+        "short": "9.2.2.8",
+        "definition": "9.2.2.8",
+        "min": 1,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName",
+          "min": 1,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.FullName",
+        "path": "MedicinalProduct.MedicinalProductName.FullName",
+        "short": "9.2.2.8.2",
+        "definition": "9.2.2.8.2",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.FullName",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.InventedNamePart",
+        "path": "MedicinalProduct.MedicinalProductName.InventedNamePart",
+        "short": "9.2.2.8.3",
+        "definition": "9.2.2.8.3",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.InventedNamePart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.ScientificNamePart",
+        "path": "MedicinalProduct.MedicinalProductName.ScientificNamePart",
+        "short": "9.2.2.8.4",
+        "definition": "9.2.2.8.4",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.ScientificNamePart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.StrengthPart",
+        "path": "MedicinalProduct.MedicinalProductName.StrengthPart",
+        "short": "9.2.2.8.5",
+        "definition": "9.2.2.8.5",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.StrengthPart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart",
+        "path": "MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart",
+        "short": "9.2.2.8.6",
+        "definition": "9.2.2.8.6",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.FormulationPart",
+        "path": "MedicinalProduct.MedicinalProductName.FormulationPart",
+        "short": "9.2.2.8.7",
+        "definition": "9.2.2.8.7",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.FormulationPart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.IntendedUsePart",
+        "path": "MedicinalProduct.MedicinalProductName.IntendedUsePart",
+        "short": "9.2.2.8.8",
+        "definition": "9.2.2.8.8",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.IntendedUsePart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.TargetPopulationPart",
+        "path": "MedicinalProduct.MedicinalProductName.TargetPopulationPart",
+        "short": "9.2.2.8.9",
+        "definition": "9.2.2.8.9",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.TargetPopulationPart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.ContainerOrPackPart",
+        "path": "MedicinalProduct.MedicinalProductName.ContainerOrPackPart",
+        "short": "9.2.2.8.10",
+        "definition": "9.2.2.8.10",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.ContainerOrPackPart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.DevicePart",
+        "path": "MedicinalProduct.MedicinalProductName.DevicePart",
+        "short": "9.2.2.8.11",
+        "definition": "9.2.2.8.11",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.DevicePart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart",
+        "path": "MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart",
+        "short": "9.2.2.8.12",
+        "definition": "9.2.2.8.12",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.Time-PeriodPart",
+        "path": "MedicinalProduct.MedicinalProductName.Time-PeriodPart",
+        "short": "9.2.2.8.13",
+        "definition": "9.2.2.8.13",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.Time-PeriodPart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.FlavourPart",
+        "path": "MedicinalProduct.MedicinalProductName.FlavourPart",
+        "short": "9.2.2.8.14",
+        "definition": "9.2.2.8.14",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.FlavourPart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.DelimiterPart",
+        "path": "MedicinalProduct.MedicinalProductName.DelimiterPart",
+        "short": "9.2.2.8.15",
+        "definition": "9.2.2.8.15",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.DelimiterPart",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.Country-Language",
+        "path": "MedicinalProduct.MedicinalProductName.Country-Language",
+        "short": "9.2.2.9",
+        "definition": "9.2.2.9",
+        "min": 1,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.Country-Language",
+          "min": 1,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.Country-Language.Country",
+        "path": "MedicinalProduct.MedicinalProductName.Country-Language.Country",
+        "short": "9.2.2.9.2",
+        "definition": "9.2.2.9.2",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.Country-Language.Country",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction",
+        "path": "MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction",
+        "short": "9.2.2.9.3",
+        "definition": "9.2.2.9.3",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.Country-Language.Language",
+        "path": "MedicinalProduct.MedicinalProductName.Country-Language.Language",
+        "short": "9.2.2.9.4",
+        "definition": "9.2.2.9.4",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.MedicinalProductName.Country-Language.Language",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation",
+        "path": "MedicinalProduct.OrphanDesignation",
+        "short": "9.2.2.3",
+        "definition": "9.2.2.3",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.OrphanDesignation",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation.OrphanIndicationType",
+        "path": "MedicinalProduct.OrphanDesignation.OrphanIndicationType",
+        "short": "9.2.2.3.2",
+        "definition": "9.2.2.3.2",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.OrphanDesignation.OrphanIndicationType",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation.OrphanProcedureNumber",
+        "path": "MedicinalProduct.OrphanDesignation.OrphanProcedureNumber",
+        "short": "9.2.2.3.3",
+        "definition": "9.2.2.3.3",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.OrphanDesignation.OrphanProcedureNumber",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus",
+        "path": "MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus",
+        "short": "9.2.2.3.4",
+        "definition": "9.2.2.3.4",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate",
+        "path": "MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate",
+        "short": "9.2.2.3.5",
+        "definition": "9.2.2.3.5",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation.OrphanDesignationNumber",
+        "path": "MedicinalProduct.OrphanDesignation.OrphanDesignationNumber",
+        "short": "9.2.2.3.6",
+        "definition": "9.2.2.3.6",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.OrphanDesignation.OrphanDesignationNumber",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductClassification",
+        "path": "MedicinalProduct.ProductClassification",
+        "short": "9.2.2.4",
+        "definition": "9.2.2.4",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.ProductClassification",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductClassification.CodeSystem",
+        "path": "MedicinalProduct.ProductClassification.CodeSystem",
+        "short": "9.2.2.4.2",
+        "definition": "9.2.2.4.2",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.ProductClassification.CodeSystem",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductClassification.Value",
+        "path": "MedicinalProduct.ProductClassification.Value",
+        "short": "9.2.2.4.3",
+        "definition": "9.2.2.4.3",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.ProductClassification.Value",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductCross-Reference",
+        "path": "MedicinalProduct.ProductCross-Reference",
+        "short": "9.2.2.7",
+        "definition": "9.2.2.7",
+        "min": 0,
+        "max": "*",
+        "base": {
+          "path": "MedicinalProduct.ProductCross-Reference",
+          "min": 0,
+          "max": "*"
+        },
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductCross-Reference.I-MPIDCross-Reference",
+        "path": "MedicinalProduct.ProductCross-Reference.I_MPIDCross-Reference",
+        "short": "9.2.2.7.2",
+        "definition": "9.2.2.7.2",
+        "min": 1,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.ProductCross-Reference.I_MPIDCross-Reference",
+          "min": 1,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductCross-Reference.ReferencedProductType",
+        "path": "MedicinalProduct.ProductCross-Reference.ReferencedProductType",
+        "short": "9.2.2.7.3",
+        "definition": "9.2.2.7.3",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "MedicinalProduct.ProductCross-Reference.ReferencedProductType",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "differential": {
+    "element": [
+      {
+        "id": "MedicinalProduct",
+        "path": "MedicinalProduct",
+        "definition": "ISO 11615 Authorised Medicinal Product"
+      },
+      {
+        "id": "MedicinalProduct.MPID",
+        "path": "MedicinalProduct.MPID",
+        "short": "9.2.2.2.2",
+        "definition": "9.2.2.2.2",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.CombinedPharmaceuticalDoseForm",
+        "path": "MedicinalProduct.CombinedPharmaceuticalDoseForm",
+        "short": "9.2.2.2.3",
+        "definition": "9.2.2.2.3",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.AdditionalMonitoringIndicator",
+        "path": "MedicinalProduct.AdditionalMonitoringIndicator",
+        "short": "9.2.2.2.4",
+        "definition": "9.2.2.2.4",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.SpecialMeasures",
+        "path": "MedicinalProduct.SpecialMeasures",
+        "short": "9.2.2.2.5",
+        "definition": "9.2.2.2.5",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.PaediatricUseIndicator",
+        "path": "MedicinalProduct.PaediatricUseIndicator",
+        "short": "9.2.2.2.6",
+        "definition": "9.2.2.2.6",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignationStatus",
+        "path": "MedicinalProduct.OrphanDesignationStatus",
+        "short": "9.2.2.2.7",
+        "definition": "9.2.2.2.7",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header",
+        "path": "MedicinalProduct.Header",
+        "short": "9.2.2.10",
+        "definition": "9.2.2.10",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header.II",
+        "path": "MedicinalProduct.Header.II",
+        "short": "9.2.2.10.2",
+        "definition": "9.2.2.10.2",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header.EffectiveDate",
+        "path": "MedicinalProduct.Header.EffectiveDate",
+        "short": "9.2.2.10.3",
+        "definition": "9.2.2.10.3",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header.Language",
+        "path": "MedicinalProduct.Header.Language",
+        "short": "9.2.2.10.4",
+        "definition": "9.2.2.10.4",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header.VersionNumber",
+        "path": "MedicinalProduct.Header.VersionNumber",
+        "short": "9.2.2.10.5",
+        "definition": "9.2.2.10.5",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.Header.VersionSetII",
+        "path": "MedicinalProduct.Header.VersionSetII",
+        "short": "9.2.2.10.6",
+        "definition": "9.2.2.10.6",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MasterFile",
+        "path": "MedicinalProduct.MasterFile",
+        "short": "9.2.2.5",
+        "definition": "9.2.2.5",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MasterFile.FileType",
+        "path": "MedicinalProduct.MasterFile.FileType",
+        "short": "9.2.2.5.2",
+        "definition": "9.2.2.5.2",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MasterFile.FileCode",
+        "path": "MedicinalProduct.MasterFile.FileCode",
+        "short": "9.2.2.5.3",
+        "definition": "9.2.2.5.3",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName",
+        "path": "MedicinalProduct.MedicinalProductName",
+        "short": "9.2.2.8",
+        "definition": "9.2.2.8",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.FullName",
+        "path": "MedicinalProduct.MedicinalProductName.FullName",
+        "short": "9.2.2.8.2",
+        "definition": "9.2.2.8.2",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.InventedNamePart",
+        "path": "MedicinalProduct.MedicinalProductName.InventedNamePart",
+        "short": "9.2.2.8.3",
+        "definition": "9.2.2.8.3",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.ScientificNamePart",
+        "path": "MedicinalProduct.MedicinalProductName.ScientificNamePart",
+        "short": "9.2.2.8.4",
+        "definition": "9.2.2.8.4",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.StrengthPart",
+        "path": "MedicinalProduct.MedicinalProductName.StrengthPart",
+        "short": "9.2.2.8.5",
+        "definition": "9.2.2.8.5",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart",
+        "path": "MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart",
+        "short": "9.2.2.8.6",
+        "definition": "9.2.2.8.6",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.FormulationPart",
+        "path": "MedicinalProduct.MedicinalProductName.FormulationPart",
+        "short": "9.2.2.8.7",
+        "definition": "9.2.2.8.7",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.IntendedUsePart",
+        "path": "MedicinalProduct.MedicinalProductName.IntendedUsePart",
+        "short": "9.2.2.8.8",
+        "definition": "9.2.2.8.8",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.TargetPopulationPart",
+        "path": "MedicinalProduct.MedicinalProductName.TargetPopulationPart",
+        "short": "9.2.2.8.9",
+        "definition": "9.2.2.8.9",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.ContainerOrPackPart",
+        "path": "MedicinalProduct.MedicinalProductName.ContainerOrPackPart",
+        "short": "9.2.2.8.10",
+        "definition": "9.2.2.8.10",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.DevicePart",
+        "path": "MedicinalProduct.MedicinalProductName.DevicePart",
+        "short": "9.2.2.8.11",
+        "definition": "9.2.2.8.11",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart",
+        "path": "MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart",
+        "short": "9.2.2.8.12",
+        "definition": "9.2.2.8.12",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.Time-PeriodPart",
+        "path": "MedicinalProduct.MedicinalProductName.Time-PeriodPart",
+        "short": "9.2.2.8.13",
+        "definition": "9.2.2.8.13",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.FlavourPart",
+        "path": "MedicinalProduct.MedicinalProductName.FlavourPart",
+        "short": "9.2.2.8.14",
+        "definition": "9.2.2.8.14",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.DelimiterPart",
+        "path": "MedicinalProduct.MedicinalProductName.DelimiterPart",
+        "short": "9.2.2.8.15",
+        "definition": "9.2.2.8.15",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.Country-Language",
+        "path": "MedicinalProduct.MedicinalProductName.Country-Language",
+        "short": "9.2.2.9",
+        "definition": "9.2.2.9",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.Country-Language.Country",
+        "path": "MedicinalProduct.MedicinalProductName.Country-Language.Country",
+        "short": "9.2.2.9.2",
+        "definition": "9.2.2.9.2",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction",
+        "path": "MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction",
+        "short": "9.2.2.9.3",
+        "definition": "9.2.2.9.3",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.MedicinalProductName.Country-Language.Language",
+        "path": "MedicinalProduct.MedicinalProductName.Country-Language.Language",
+        "short": "9.2.2.9.4",
+        "definition": "9.2.2.9.4",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation",
+        "path": "MedicinalProduct.OrphanDesignation",
+        "short": "9.2.2.3",
+        "definition": "9.2.2.3",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation.OrphanIndicationType",
+        "path": "MedicinalProduct.OrphanDesignation.OrphanIndicationType",
+        "short": "9.2.2.3.2",
+        "definition": "9.2.2.3.2",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation.OrphanProcedureNumber",
+        "path": "MedicinalProduct.OrphanDesignation.OrphanProcedureNumber",
+        "short": "9.2.2.3.3",
+        "definition": "9.2.2.3.3",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus",
+        "path": "MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus",
+        "short": "9.2.2.3.4",
+        "definition": "9.2.2.3.4",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate",
+        "path": "MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate",
+        "short": "9.2.2.3.5",
+        "definition": "9.2.2.3.5",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.OrphanDesignation.OrphanDesignationNumber",
+        "path": "MedicinalProduct.OrphanDesignation.OrphanDesignationNumber",
+        "short": "9.2.2.3.6",
+        "definition": "9.2.2.3.6",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductClassification",
+        "path": "MedicinalProduct.ProductClassification",
+        "short": "9.2.2.4",
+        "definition": "9.2.2.4",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductClassification.CodeSystem",
+        "path": "MedicinalProduct.ProductClassification.CodeSystem",
+        "short": "9.2.2.4.2",
+        "definition": "9.2.2.4.2",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductClassification.Value",
+        "path": "MedicinalProduct.ProductClassification.Value",
+        "short": "9.2.2.4.3",
+        "definition": "9.2.2.4.3",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductCross-Reference",
+        "path": "MedicinalProduct.ProductCross-Reference",
+        "short": "9.2.2.7",
+        "definition": "9.2.2.7",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductCross-Reference.I-MPIDCross-Reference",
+        "path": "MedicinalProduct.ProductCross-Reference.I_MPIDCross-Reference",
+        "short": "9.2.2.7.2",
+        "definition": "9.2.2.7.2",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicinalProduct.ProductCross-Reference.ReferencedProductType",
+        "path": "MedicinalProduct.ProductCross-Reference.ReferencedProductType",
+        "short": "9.2.2.7.3",
+        "definition": "9.2.2.7.3",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://example.com/fhir/example/StructureDefinition/CD"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

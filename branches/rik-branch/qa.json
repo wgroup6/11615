@@ -1,0 +1,12 @@
+{
+  "url": "http://example.com/fhir/example",
+  "name": "ExampleIG",
+  "package-id": "my-ig",
+  "ig-ver": "1.0.0",
+  "date": "Tue, 27 Sep, 2022 11:56:16 +0000",
+  "errs": 5,
+  "warnings": 3413,
+  "hints": 0,
+  "version": "4.0.1",
+  "tool": "5.0.0-ballot (3)"
+}

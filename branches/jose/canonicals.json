@@ -1,0 +1,65 @@
+[
+  {
+    "id": "my-ig",
+    "type": "ImplementationGuide",
+    "url": "http://example.com/fhir/example",
+    "version": "1.0.0",
+    "name": "ExampleIG"
+  },
+  {
+    "id": "CD",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/CD",
+    "version": "1.0.0",
+    "name": "CD"
+  },
+  {
+    "id": "II",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/II",
+    "version": "1.0.0",
+    "name": "II"
+  },
+  {
+    "id": "InvestigationalMedicinalProduct",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/InvestigationalMedicinalProduct",
+    "version": "1.0.0",
+    "name": "IDMP11615Investigational"
+  },
+  {
+    "id": "MedicinalProduct",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/MedicinalProduct",
+    "version": "1.0.0",
+    "name": "IDMP11615Authorised"
+  },
+  {
+    "id": "QT",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/QT",
+    "version": "1.0.0",
+    "name": "QT"
+  },
+  {
+    "id": "ST",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/ST",
+    "version": "1.0.0",
+    "name": "ST"
+  },
+  {
+    "id": "TS",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/TS",
+    "version": "1.0.0",
+    "name": "TS"
+  },
+  {
+    "id": "class",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/class",
+    "version": "1.0.0",
+    "name": "class"
+  }
+]

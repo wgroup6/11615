@@ -1,0 +1,114 @@
+[
+  {
+    "id" : "my-ig",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.com/fhir/example",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
+  },
+  {
+    "id" : "AD",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/AD",
+    "version" : "1.0.0",
+    "name" : "AD"
+  },
+  {
+    "id" : "BL",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/BL",
+    "version" : "1.0.0",
+    "name" : "BL"
+  },
+  {
+    "id" : "CD",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/CD",
+    "version" : "1.0.0",
+    "name" : "CD"
+  },
+  {
+    "id" : "Class",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/Class",
+    "version" : "1.0.0",
+    "name" : "Class"
+  },
+  {
+    "id" : "DT",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/DT",
+    "version" : "1.0.0",
+    "name" : "DT"
+  },
+  {
+    "id" : "ED",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/ED",
+    "version" : "1.0.0",
+    "name" : "ED"
+  },
+  {
+    "id" : "II",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/II",
+    "version" : "1.0.0",
+    "name" : "II"
+  },
+  {
+    "id" : "InvestigationalMedicinalProduct",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/InvestigationalMedicinalProduct",
+    "version" : "1.0.0",
+    "name" : "IDMP11615Investigational"
+  },
+  {
+    "id" : "MedicinalProduct",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/MedicinalProduct",
+    "version" : "1.0.0",
+    "name" : "IDMP11615Authorised"
+  },
+  {
+    "id" : "PN",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/PN",
+    "version" : "1.0.0",
+    "name" : "PN"
+  },
+  {
+    "id" : "PQ",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/PQ",
+    "version" : "1.0.0",
+    "name" : "PQ"
+  },
+  {
+    "id" : "RTO",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/RTO",
+    "version" : "1.0.0",
+    "name" : "RTO"
+  },
+  {
+    "id" : "ST",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/ST",
+    "version" : "1.0.0",
+    "name" : "ST"
+  },
+  {
+    "id" : "TEL",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/TEL",
+    "version" : "1.0.0",
+    "name" : "TEL"
+  },
+  {
+    "id" : "TS",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/TS",
+    "version" : "1.0.0",
+    "name" : "TS"
+  }
+]

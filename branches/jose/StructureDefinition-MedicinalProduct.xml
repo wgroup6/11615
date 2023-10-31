@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="MedicinalProduct"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct" title="ISO 11615 Authorised Medicinal Product">MedicinalProduct</a><a name="MedicinalProduct"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MPID" title="9.2.2.2.2">MPID</a><a name="MedicinalProduct.MPID"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-II.html" title="Element">II</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.2.2</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.CombinedPharmaceuticalDoseForm" title="9.2.2.2.3">CombinedPharmaceuticalDoseForm</a><a name="MedicinalProduct.CombinedPharmaceuticalDoseForm"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.2.3</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.AdditionalMonitoringIndicator" title="9.2.2.2.4">AdditionalMonitoringIndicator</a><a name="MedicinalProduct.AdditionalMonitoringIndicator"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.2.4</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.SpecialMeasures" title="9.2.2.2.5">SpecialMeasures</a><a name="MedicinalProduct.SpecialMeasures"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.2.5<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.PaediatricUseIndicator" title="9.2.2.2.6">PaediatricUseIndicator</a><a name="MedicinalProduct.PaediatricUseIndicator"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.2.6</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignationStatus" title="9.2.2.2.7">OrphanDesignationStatus</a><a name="MedicinalProduct.OrphanDesignationStatus"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.2.7</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header" title="9.2.2.10">Header</a><a name="MedicinalProduct.Header"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-class.html" title="BackboneElement">class</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.10</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header.II" title="9.2.2.10.2">II</a><a name="MedicinalProduct.Header.II"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-II.html" title="Element">II</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.10.2</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header.EffectiveDate" title="9.2.2.10.3">EffectiveDate</a><a name="MedicinalProduct.Header.EffectiveDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.10.3</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header.Language" title="9.2.2.10.4">Language</a><a name="MedicinalProduct.Header.Language"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.10.4</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header.VersionNumber" title="9.2.2.10.5">VersionNumber</a><a name="MedicinalProduct.Header.VersionNumber"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.10.5</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.Header.VersionSetII" title="9.2.2.10.6">VersionSetII</a><a name="MedicinalProduct.Header.VersionSetII"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-II.html" title="Element">II</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.10.6</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MasterFile" title="9.2.2.5">MasterFile</a><a name="MedicinalProduct.MasterFile"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-class.html" title="BackboneElement">class</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.5<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MasterFile.FileType" title="9.2.2.5.2">FileType</a><a name="MedicinalProduct.MasterFile.FileType"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.5.2</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MasterFile.FileCode" title="9.2.2.5.3">FileCode</a><a name="MedicinalProduct.MasterFile.FileCode"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-II.html" title="Element">II</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.5.3</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName" title="9.2.2.8">MedicinalProductName</a><a name="MedicinalProduct.MedicinalProductName"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-class.html" title="BackboneElement">class</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.FullName" title="9.2.2.8.2">FullName</a><a name="MedicinalProduct.MedicinalProductName.FullName"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.2</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.InventedNamePart" title="9.2.2.8.3">InventedNamePart</a><a name="MedicinalProduct.MedicinalProductName.InventedNamePart"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.3<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.ScientificNamePart" title="9.2.2.8.4">ScientificNamePart</a><a name="MedicinalProduct.MedicinalProductName.ScientificNamePart"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.4<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.StrengthPart" title="9.2.2.8.5">StrengthPart</a><a name="MedicinalProduct.MedicinalProductName.StrengthPart"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.5<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart" title="9.2.2.8.6">PharmaceuticalDoseFormPart</a><a name="MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.6<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.FormulationPart" title="9.2.2.8.7">FormulationPart</a><a name="MedicinalProduct.MedicinalProductName.FormulationPart"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.7<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.IntendedUsePart" title="9.2.2.8.8">IntendedUsePart</a><a name="MedicinalProduct.MedicinalProductName.IntendedUsePart"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.8<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.TargetPopulationPart" title="9.2.2.8.9">TargetPopulationPart</a><a name="MedicinalProduct.MedicinalProductName.TargetPopulationPart"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.9<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.ContainerOrPackPart" title="9.2.2.8.10">ContainerOrPackPart</a><a name="MedicinalProduct.MedicinalProductName.ContainerOrPackPart"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.10<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.DevicePart" title="9.2.2.8.11">DevicePart</a><a name="MedicinalProduct.MedicinalProductName.DevicePart"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.11<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart" title="9.2.2.8.12">TrademarkOrCompanyNamePart</a><a name="MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.12<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.Time-PeriodPart" title="9.2.2.8.13">Time-PeriodPart</a><a name="MedicinalProduct.MedicinalProductName.Time-PeriodPart"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.13<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.FlavourPart" title="9.2.2.8.14">FlavourPart</a><a name="MedicinalProduct.MedicinalProductName.FlavourPart"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.14<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.DelimiterPart" title="9.2.2.8.15">DelimiterPart</a><a name="MedicinalProduct.MedicinalProductName.DelimiterPart"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-ST.html" title="Element">ST</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.8.15<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.Country-Language" title="9.2.2.9">Country-Language</a><a name="MedicinalProduct.MedicinalProductName.Country-Language"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-class.html" title="BackboneElement">class</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.9<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.Country-Language.Country" title="9.2.2.9.2">Country</a><a name="MedicinalProduct.MedicinalProductName.Country-Language.Country"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.9.2</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction" title="9.2.2.9.3">Jurisdiction</a><a name="MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.9.3</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.MedicinalProductName.Country-Language.Language" title="9.2.2.9.4">Language</a><a name="MedicinalProduct.MedicinalProductName.Country-Language.Language"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.9.4</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation" title="9.2.2.3">OrphanDesignation</a><a name="MedicinalProduct.OrphanDesignation"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-class.html" title="BackboneElement">class</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.3<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation.OrphanIndicationType" title="9.2.2.3.2">OrphanIndicationType</a><a name="MedicinalProduct.OrphanDesignation.OrphanIndicationType"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.3.2</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation.OrphanProcedureNumber" title="9.2.2.3.3">OrphanProcedureNumber</a><a name="MedicinalProduct.OrphanDesignation.OrphanProcedureNumber"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-II.html" title="Element">II</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.3.3</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus" title="9.2.2.3.4">OrphanDesignationAuthorisationStatus</a><a name="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.3.4</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate" title="9.2.2.3.5">OrphanDesignationAuthorisationDate</a><a name="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#date">date</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.3.5</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.OrphanDesignation.OrphanDesignationNumber" title="9.2.2.3.6">OrphanDesignationNumber</a><a name="MedicinalProduct.OrphanDesignation.OrphanDesignationNumber"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-II.html" title="Element">II</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.3.6</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductClassification" title="9.2.2.4">ProductClassification</a><a name="MedicinalProduct.ProductClassification"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-class.html" title="BackboneElement">class</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.4<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductClassification.CodeSystem" title="9.2.2.4.2">CodeSystem</a><a name="MedicinalProduct.ProductClassification.CodeSystem"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.4.2</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductClassification.Value" title="9.2.2.4.3">Value</a><a name="MedicinalProduct.ProductClassification.Value"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.4.3</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductCross-Reference" title="9.2.2.7">ProductCross-Reference</a><a name="MedicinalProduct.ProductCross-Reference"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-class.html" title="BackboneElement">class</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.7<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductCross-Reference.I-MPIDCross-Reference" title="9.2.2.7.2">I_MPIDCross-Reference</a><a name="MedicinalProduct.ProductCross-Reference.I_MPIDCross-Reference"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-II.html" title="Element">II</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.7.2</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedicinalProduct-definitions.html#MedicinalProduct.ProductCross-Reference.ReferencedProductType" title="9.2.2.7.3">ReferencedProductType</a><a name="MedicinalProduct.ProductCross-Reference.ReferencedProductType"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-CD.html" title="Element">CD</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">9.2.2.7.3</td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+  </text>
+  <url value="http://example.com/fhir/example/StructureDefinition/MedicinalProduct"/>
+  <version value="1.0.0"/>
+  <name value="IDMP11615Authorised"/>
+  <status value="active"/>
+  <date value="2022-08-24T08:07:55+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="ISO 11615 Authorised Medicinal Product"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <fhirVersion value="4.0.1"/>
+  <mapping>
+    <identity value="rim"/>
+    <uri value="http://hl7.org/v3"/>
+    <name value="RIM Mapping"/>
+  </mapping>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://example.com/fhir/example/StructureDefinition/MedicinalProduct"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <derivation value="specialization"/>
+  <snapshot>
+    <element id="MedicinalProduct">
+      <path value="MedicinalProduct"/>
+      <definition value="ISO 11615 Authorised Medicinal Product"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Base"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <isModifier value="false"/>
+    </element>
+    <element id="MedicinalProduct.MPID">
+      <path value="MedicinalProduct.MPID"/>
+      <short value="9.2.2.2.2"/>
+      <definition value="9.2.2.2.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.MPID"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.CombinedPharmaceuticalDoseForm">
+      <path value="MedicinalProduct.CombinedPharmaceuticalDoseForm"/>
+      <short value="9.2.2.2.3"/>
+      <definition value="9.2.2.2.3"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.CombinedPharmaceuticalDoseForm"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.AdditionalMonitoringIndicator">
+      <path value="MedicinalProduct.AdditionalMonitoringIndicator"/>
+      <short value="9.2.2.2.4"/>
+      <definition value="9.2.2.2.4"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.AdditionalMonitoringIndicator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.SpecialMeasures">
+      <path value="MedicinalProduct.SpecialMeasures"/>
+      <short value="9.2.2.2.5"/>
+      <definition value="9.2.2.2.5"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.SpecialMeasures"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.PaediatricUseIndicator">
+      <path value="MedicinalProduct.PaediatricUseIndicator"/>
+      <short value="9.2.2.2.6"/>
+      <definition value="9.2.2.2.6"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.PaediatricUseIndicator"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignationStatus">
+      <path value="MedicinalProduct.OrphanDesignationStatus"/>
+      <short value="9.2.2.2.7"/>
+      <definition value="9.2.2.2.7"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.OrphanDesignationStatus"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header">
+      <path value="MedicinalProduct.Header"/>
+      <short value="9.2.2.10"/>
+      <definition value="9.2.2.10"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.Header"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header.II">
+      <path value="MedicinalProduct.Header.II"/>
+      <short value="9.2.2.10.2"/>
+      <definition value="9.2.2.10.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.Header.II"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header.EffectiveDate">
+      <path value="MedicinalProduct.Header.EffectiveDate"/>
+      <short value="9.2.2.10.3"/>
+      <definition value="9.2.2.10.3"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.Header.EffectiveDate"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="date"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header.Language">
+      <path value="MedicinalProduct.Header.Language"/>
+      <short value="9.2.2.10.4"/>
+      <definition value="9.2.2.10.4"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.Header.Language"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header.VersionNumber">
+      <path value="MedicinalProduct.Header.VersionNumber"/>
+      <short value="9.2.2.10.5"/>
+      <definition value="9.2.2.10.5"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.Header.VersionNumber"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header.VersionSetII">
+      <path value="MedicinalProduct.Header.VersionSetII"/>
+      <short value="9.2.2.10.6"/>
+      <definition value="9.2.2.10.6"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.Header.VersionSetII"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MasterFile">
+      <path value="MedicinalProduct.MasterFile"/>
+      <short value="9.2.2.5"/>
+      <definition value="9.2.2.5"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MasterFile"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MasterFile.FileType">
+      <path value="MedicinalProduct.MasterFile.FileType"/>
+      <short value="9.2.2.5.2"/>
+      <definition value="9.2.2.5.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.MasterFile.FileType"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MasterFile.FileCode">
+      <path value="MedicinalProduct.MasterFile.FileCode"/>
+      <short value="9.2.2.5.3"/>
+      <definition value="9.2.2.5.3"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.MasterFile.FileCode"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName">
+      <path value="MedicinalProduct.MedicinalProductName"/>
+      <short value="9.2.2.8"/>
+      <definition value="9.2.2.8"/>
+      <min value="1"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName"/>
+        <min value="1"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.FullName">
+      <path value="MedicinalProduct.MedicinalProductName.FullName"/>
+      <short value="9.2.2.8.2"/>
+      <definition value="9.2.2.8.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.FullName"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.InventedNamePart">
+      <path value="MedicinalProduct.MedicinalProductName.InventedNamePart"/>
+      <short value="9.2.2.8.3"/>
+      <definition value="9.2.2.8.3"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.InventedNamePart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.ScientificNamePart">
+      <path value="MedicinalProduct.MedicinalProductName.ScientificNamePart"/>
+      <short value="9.2.2.8.4"/>
+      <definition value="9.2.2.8.4"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.ScientificNamePart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.StrengthPart">
+      <path value="MedicinalProduct.MedicinalProductName.StrengthPart"/>
+      <short value="9.2.2.8.5"/>
+      <definition value="9.2.2.8.5"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.StrengthPart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart">
+      <path value="MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart"/>
+      <short value="9.2.2.8.6"/>
+      <definition value="9.2.2.8.6"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.FormulationPart">
+      <path value="MedicinalProduct.MedicinalProductName.FormulationPart"/>
+      <short value="9.2.2.8.7"/>
+      <definition value="9.2.2.8.7"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.FormulationPart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.IntendedUsePart">
+      <path value="MedicinalProduct.MedicinalProductName.IntendedUsePart"/>
+      <short value="9.2.2.8.8"/>
+      <definition value="9.2.2.8.8"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.IntendedUsePart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.TargetPopulationPart">
+      <path value="MedicinalProduct.MedicinalProductName.TargetPopulationPart"/>
+      <short value="9.2.2.8.9"/>
+      <definition value="9.2.2.8.9"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.TargetPopulationPart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.ContainerOrPackPart">
+      <path value="MedicinalProduct.MedicinalProductName.ContainerOrPackPart"/>
+      <short value="9.2.2.8.10"/>
+      <definition value="9.2.2.8.10"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.ContainerOrPackPart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.DevicePart">
+      <path value="MedicinalProduct.MedicinalProductName.DevicePart"/>
+      <short value="9.2.2.8.11"/>
+      <definition value="9.2.2.8.11"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.DevicePart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart">
+      <path value="MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart"/>
+      <short value="9.2.2.8.12"/>
+      <definition value="9.2.2.8.12"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.Time-PeriodPart">
+      <path value="MedicinalProduct.MedicinalProductName.Time-PeriodPart"/>
+      <short value="9.2.2.8.13"/>
+      <definition value="9.2.2.8.13"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.Time-PeriodPart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.FlavourPart">
+      <path value="MedicinalProduct.MedicinalProductName.FlavourPart"/>
+      <short value="9.2.2.8.14"/>
+      <definition value="9.2.2.8.14"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.FlavourPart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.DelimiterPart">
+      <path value="MedicinalProduct.MedicinalProductName.DelimiterPart"/>
+      <short value="9.2.2.8.15"/>
+      <definition value="9.2.2.8.15"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.DelimiterPart"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.Country-Language">
+      <path value="MedicinalProduct.MedicinalProductName.Country-Language"/>
+      <short value="9.2.2.9"/>
+      <definition value="9.2.2.9"/>
+      <min value="1"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.Country-Language"/>
+        <min value="1"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.Country-Language.Country">
+      <path value="MedicinalProduct.MedicinalProductName.Country-Language.Country"/>
+      <short value="9.2.2.9.2"/>
+      <definition value="9.2.2.9.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.Country-Language.Country"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction">
+      <path value="MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction"/>
+      <short value="9.2.2.9.3"/>
+      <definition value="9.2.2.9.3"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.Country-Language.Language">
+      <path value="MedicinalProduct.MedicinalProductName.Country-Language.Language"/>
+      <short value="9.2.2.9.4"/>
+      <definition value="9.2.2.9.4"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.MedicinalProductName.Country-Language.Language"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation">
+      <path value="MedicinalProduct.OrphanDesignation"/>
+      <short value="9.2.2.3"/>
+      <definition value="9.2.2.3"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.OrphanDesignation"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation.OrphanIndicationType">
+      <path value="MedicinalProduct.OrphanDesignation.OrphanIndicationType"/>
+      <short value="9.2.2.3.2"/>
+      <definition value="9.2.2.3.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.OrphanDesignation.OrphanIndicationType"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation.OrphanProcedureNumber">
+      <path value="MedicinalProduct.OrphanDesignation.OrphanProcedureNumber"/>
+      <short value="9.2.2.3.3"/>
+      <definition value="9.2.2.3.3"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.OrphanDesignation.OrphanProcedureNumber"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus">
+      <path value="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus"/>
+      <short value="9.2.2.3.4"/>
+      <definition value="9.2.2.3.4"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate">
+      <path value="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate"/>
+      <short value="9.2.2.3.5"/>
+      <definition value="9.2.2.3.5"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="date"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation.OrphanDesignationNumber">
+      <path value="MedicinalProduct.OrphanDesignation.OrphanDesignationNumber"/>
+      <short value="9.2.2.3.6"/>
+      <definition value="9.2.2.3.6"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.OrphanDesignation.OrphanDesignationNumber"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductClassification">
+      <path value="MedicinalProduct.ProductClassification"/>
+      <short value="9.2.2.4"/>
+      <definition value="9.2.2.4"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.ProductClassification"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductClassification.CodeSystem">
+      <path value="MedicinalProduct.ProductClassification.CodeSystem"/>
+      <short value="9.2.2.4.2"/>
+      <definition value="9.2.2.4.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.ProductClassification.CodeSystem"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductClassification.Value">
+      <path value="MedicinalProduct.ProductClassification.Value"/>
+      <short value="9.2.2.4.3"/>
+      <definition value="9.2.2.4.3"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.ProductClassification.Value"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductCross-Reference">
+      <path value="MedicinalProduct.ProductCross-Reference"/>
+      <short value="9.2.2.7"/>
+      <definition value="9.2.2.7"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicinalProduct.ProductCross-Reference"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductCross-Reference.I-MPIDCross-Reference">
+      <path value="MedicinalProduct.ProductCross-Reference.I_MPIDCross-Reference"/>
+      <short value="9.2.2.7.2"/>
+      <definition value="9.2.2.7.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.ProductCross-Reference.I_MPIDCross-Reference"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductCross-Reference.ReferencedProductType">
+      <path value="MedicinalProduct.ProductCross-Reference.ReferencedProductType"/>
+      <short value="9.2.2.7.3"/>
+      <definition value="9.2.2.7.3"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicinalProduct.ProductCross-Reference.ReferencedProductType"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+  </snapshot>
+  <differential>
+    <element id="MedicinalProduct">
+      <path value="MedicinalProduct"/>
+      <definition value="ISO 11615 Authorised Medicinal Product"/>
+    </element>
+    <element id="MedicinalProduct.MPID">
+      <path value="MedicinalProduct.MPID"/>
+      <short value="9.2.2.2.2"/>
+      <definition value="9.2.2.2.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.CombinedPharmaceuticalDoseForm">
+      <path value="MedicinalProduct.CombinedPharmaceuticalDoseForm"/>
+      <short value="9.2.2.2.3"/>
+      <definition value="9.2.2.2.3"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.AdditionalMonitoringIndicator">
+      <path value="MedicinalProduct.AdditionalMonitoringIndicator"/>
+      <short value="9.2.2.2.4"/>
+      <definition value="9.2.2.2.4"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.SpecialMeasures">
+      <path value="MedicinalProduct.SpecialMeasures"/>
+      <short value="9.2.2.2.5"/>
+      <definition value="9.2.2.2.5"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.PaediatricUseIndicator">
+      <path value="MedicinalProduct.PaediatricUseIndicator"/>
+      <short value="9.2.2.2.6"/>
+      <definition value="9.2.2.2.6"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignationStatus">
+      <path value="MedicinalProduct.OrphanDesignationStatus"/>
+      <short value="9.2.2.2.7"/>
+      <definition value="9.2.2.2.7"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header">
+      <path value="MedicinalProduct.Header"/>
+      <short value="9.2.2.10"/>
+      <definition value="9.2.2.10"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header.II">
+      <path value="MedicinalProduct.Header.II"/>
+      <short value="9.2.2.10.2"/>
+      <definition value="9.2.2.10.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header.EffectiveDate">
+      <path value="MedicinalProduct.Header.EffectiveDate"/>
+      <short value="9.2.2.10.3"/>
+      <definition value="9.2.2.10.3"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="date"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header.Language">
+      <path value="MedicinalProduct.Header.Language"/>
+      <short value="9.2.2.10.4"/>
+      <definition value="9.2.2.10.4"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header.VersionNumber">
+      <path value="MedicinalProduct.Header.VersionNumber"/>
+      <short value="9.2.2.10.5"/>
+      <definition value="9.2.2.10.5"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.Header.VersionSetII">
+      <path value="MedicinalProduct.Header.VersionSetII"/>
+      <short value="9.2.2.10.6"/>
+      <definition value="9.2.2.10.6"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MasterFile">
+      <path value="MedicinalProduct.MasterFile"/>
+      <short value="9.2.2.5"/>
+      <definition value="9.2.2.5"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MasterFile.FileType">
+      <path value="MedicinalProduct.MasterFile.FileType"/>
+      <short value="9.2.2.5.2"/>
+      <definition value="9.2.2.5.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MasterFile.FileCode">
+      <path value="MedicinalProduct.MasterFile.FileCode"/>
+      <short value="9.2.2.5.3"/>
+      <definition value="9.2.2.5.3"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName">
+      <path value="MedicinalProduct.MedicinalProductName"/>
+      <short value="9.2.2.8"/>
+      <definition value="9.2.2.8"/>
+      <min value="1"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.FullName">
+      <path value="MedicinalProduct.MedicinalProductName.FullName"/>
+      <short value="9.2.2.8.2"/>
+      <definition value="9.2.2.8.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.InventedNamePart">
+      <path value="MedicinalProduct.MedicinalProductName.InventedNamePart"/>
+      <short value="9.2.2.8.3"/>
+      <definition value="9.2.2.8.3"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.ScientificNamePart">
+      <path value="MedicinalProduct.MedicinalProductName.ScientificNamePart"/>
+      <short value="9.2.2.8.4"/>
+      <definition value="9.2.2.8.4"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.StrengthPart">
+      <path value="MedicinalProduct.MedicinalProductName.StrengthPart"/>
+      <short value="9.2.2.8.5"/>
+      <definition value="9.2.2.8.5"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart">
+      <path value="MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart"/>
+      <short value="9.2.2.8.6"/>
+      <definition value="9.2.2.8.6"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.FormulationPart">
+      <path value="MedicinalProduct.MedicinalProductName.FormulationPart"/>
+      <short value="9.2.2.8.7"/>
+      <definition value="9.2.2.8.7"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.IntendedUsePart">
+      <path value="MedicinalProduct.MedicinalProductName.IntendedUsePart"/>
+      <short value="9.2.2.8.8"/>
+      <definition value="9.2.2.8.8"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.TargetPopulationPart">
+      <path value="MedicinalProduct.MedicinalProductName.TargetPopulationPart"/>
+      <short value="9.2.2.8.9"/>
+      <definition value="9.2.2.8.9"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.ContainerOrPackPart">
+      <path value="MedicinalProduct.MedicinalProductName.ContainerOrPackPart"/>
+      <short value="9.2.2.8.10"/>
+      <definition value="9.2.2.8.10"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.DevicePart">
+      <path value="MedicinalProduct.MedicinalProductName.DevicePart"/>
+      <short value="9.2.2.8.11"/>
+      <definition value="9.2.2.8.11"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart">
+      <path value="MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart"/>
+      <short value="9.2.2.8.12"/>
+      <definition value="9.2.2.8.12"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.Time-PeriodPart">
+      <path value="MedicinalProduct.MedicinalProductName.Time-PeriodPart"/>
+      <short value="9.2.2.8.13"/>
+      <definition value="9.2.2.8.13"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.FlavourPart">
+      <path value="MedicinalProduct.MedicinalProductName.FlavourPart"/>
+      <short value="9.2.2.8.14"/>
+      <definition value="9.2.2.8.14"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.DelimiterPart">
+      <path value="MedicinalProduct.MedicinalProductName.DelimiterPart"/>
+      <short value="9.2.2.8.15"/>
+      <definition value="9.2.2.8.15"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/ST"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.Country-Language">
+      <path value="MedicinalProduct.MedicinalProductName.Country-Language"/>
+      <short value="9.2.2.9"/>
+      <definition value="9.2.2.9"/>
+      <min value="1"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.Country-Language.Country">
+      <path value="MedicinalProduct.MedicinalProductName.Country-Language.Country"/>
+      <short value="9.2.2.9.2"/>
+      <definition value="9.2.2.9.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction">
+      <path value="MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction"/>
+      <short value="9.2.2.9.3"/>
+      <definition value="9.2.2.9.3"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.MedicinalProductName.Country-Language.Language">
+      <path value="MedicinalProduct.MedicinalProductName.Country-Language.Language"/>
+      <short value="9.2.2.9.4"/>
+      <definition value="9.2.2.9.4"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation">
+      <path value="MedicinalProduct.OrphanDesignation"/>
+      <short value="9.2.2.3"/>
+      <definition value="9.2.2.3"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation.OrphanIndicationType">
+      <path value="MedicinalProduct.OrphanDesignation.OrphanIndicationType"/>
+      <short value="9.2.2.3.2"/>
+      <definition value="9.2.2.3.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation.OrphanProcedureNumber">
+      <path value="MedicinalProduct.OrphanDesignation.OrphanProcedureNumber"/>
+      <short value="9.2.2.3.3"/>
+      <definition value="9.2.2.3.3"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus">
+      <path value="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus"/>
+      <short value="9.2.2.3.4"/>
+      <definition value="9.2.2.3.4"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate">
+      <path value="MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate"/>
+      <short value="9.2.2.3.5"/>
+      <definition value="9.2.2.3.5"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="date"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.OrphanDesignation.OrphanDesignationNumber">
+      <path value="MedicinalProduct.OrphanDesignation.OrphanDesignationNumber"/>
+      <short value="9.2.2.3.6"/>
+      <definition value="9.2.2.3.6"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductClassification">
+      <path value="MedicinalProduct.ProductClassification"/>
+      <short value="9.2.2.4"/>
+      <definition value="9.2.2.4"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductClassification.CodeSystem">
+      <path value="MedicinalProduct.ProductClassification.CodeSystem"/>
+      <short value="9.2.2.4.2"/>
+      <definition value="9.2.2.4.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductClassification.Value">
+      <path value="MedicinalProduct.ProductClassification.Value"/>
+      <short value="9.2.2.4.3"/>
+      <definition value="9.2.2.4.3"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductCross-Reference">
+      <path value="MedicinalProduct.ProductCross-Reference"/>
+      <short value="9.2.2.7"/>
+      <definition value="9.2.2.7"/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="BackboneElement"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/class"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductCross-Reference.I-MPIDCross-Reference">
+      <path value="MedicinalProduct.ProductCross-Reference.I_MPIDCross-Reference"/>
+      <short value="9.2.2.7.2"/>
+      <definition value="9.2.2.7.2"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/II"/>
+      </type>
+    </element>
+    <element id="MedicinalProduct.ProductCross-Reference.ReferencedProductType">
+      <path value="MedicinalProduct.ProductCross-Reference.ReferencedProductType"/>
+      <short value="9.2.2.7.3"/>
+      <definition value="9.2.2.7.3"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Element"/>
+        <profile value="http://example.com/fhir/example/StructureDefinition/CD"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

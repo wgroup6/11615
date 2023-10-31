@@ -1,0 +1,94 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"MedicinalProduct","MedicinalProduct","","","",0,*,"","","","","","ISO 11615 Authorised Medicinal Product","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"MedicinalProduct.MPID","MedicinalProduct.MPID","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/II]]} {[]}
+","9.2.2.2.2","9.2.2.2.2","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MPID",1,1,"",""
+"MedicinalProduct.CombinedPharmaceuticalDoseForm","MedicinalProduct.CombinedPharmaceuticalDoseForm","","","",0,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.2.3","9.2.2.2.3","","","","","","","","","",,,,,"",,,,"MedicinalProduct.CombinedPharmaceuticalDoseForm",0,1,"",""
+"MedicinalProduct.AdditionalMonitoringIndicator","MedicinalProduct.AdditionalMonitoringIndicator","","","",0,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.2.4","9.2.2.2.4","","","","","","","","","",,,,,"",,,,"MedicinalProduct.AdditionalMonitoringIndicator",0,1,"",""
+"MedicinalProduct.SpecialMeasures","MedicinalProduct.SpecialMeasures","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.2.5","9.2.2.2.5","","","","","","","","","",,,,,"",,,,"MedicinalProduct.SpecialMeasures",0,*,"",""
+"MedicinalProduct.PaediatricUseIndicator","MedicinalProduct.PaediatricUseIndicator","","","",0,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.2.6","9.2.2.2.6","","","","","","","","","",,,,,"",,,,"MedicinalProduct.PaediatricUseIndicator",0,1,"",""
+"MedicinalProduct.OrphanDesignationStatus","MedicinalProduct.OrphanDesignationStatus","","","",0,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.2.7","9.2.2.2.7","","","","","","","","","",,,,,"",,,,"MedicinalProduct.OrphanDesignationStatus",0,1,"",""
+"MedicinalProduct.Header","MedicinalProduct.Header","","","",1,1,"","","","BackboneElement {[CanonicalType[http://example.com/fhir/example/StructureDefinition/class]]} {[]}
+","9.2.2.10","9.2.2.10","","","","","","","","","",,,,,"",,,,"MedicinalProduct.Header",1,1,"",""
+"MedicinalProduct.Header.II","MedicinalProduct.Header.II","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/II]]} {[]}
+","9.2.2.10.2","9.2.2.10.2","","","","","","","","","",,,,,"",,,,"MedicinalProduct.Header.II",1,1,"",""
+"MedicinalProduct.Header.EffectiveDate","MedicinalProduct.Header.EffectiveDate","","","",1,1,"","","","date {[]} {[]}
+","9.2.2.10.3","9.2.2.10.3","","","","","","","","","",,,,,"",,,,"MedicinalProduct.Header.EffectiveDate",1,1,"",""
+"MedicinalProduct.Header.Language","MedicinalProduct.Header.Language","","","",0,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.10.4","9.2.2.10.4","","","","","","","","","",,,,,"",,,,"MedicinalProduct.Header.Language",0,1,"",""
+"MedicinalProduct.Header.VersionNumber","MedicinalProduct.Header.VersionNumber","","","",0,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.10.5","9.2.2.10.5","","","","","","","","","",,,,,"",,,,"MedicinalProduct.Header.VersionNumber",0,1,"",""
+"MedicinalProduct.Header.VersionSetII","MedicinalProduct.Header.VersionSetII","","","",0,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/II]]} {[]}
+","9.2.2.10.6","9.2.2.10.6","","","","","","","","","",,,,,"",,,,"MedicinalProduct.Header.VersionSetII",0,1,"",""
+"MedicinalProduct.MasterFile","MedicinalProduct.MasterFile","","","",0,*,"","","","BackboneElement {[CanonicalType[http://example.com/fhir/example/StructureDefinition/class]]} {[]}
+","9.2.2.5","9.2.2.5","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MasterFile",0,*,"",""
+"MedicinalProduct.MasterFile.FileType","MedicinalProduct.MasterFile.FileType","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.5.2","9.2.2.5.2","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MasterFile.FileType",1,1,"",""
+"MedicinalProduct.MasterFile.FileCode","MedicinalProduct.MasterFile.FileCode","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/II]]} {[]}
+","9.2.2.5.3","9.2.2.5.3","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MasterFile.FileCode",1,1,"",""
+"MedicinalProduct.MedicinalProductName","MedicinalProduct.MedicinalProductName","","","",1,*,"","","","BackboneElement {[CanonicalType[http://example.com/fhir/example/StructureDefinition/class]]} {[]}
+","9.2.2.8","9.2.2.8","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName",1,*,"",""
+"MedicinalProduct.MedicinalProductName.FullName","MedicinalProduct.MedicinalProductName.FullName","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.2","9.2.2.8.2","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.FullName",1,1,"",""
+"MedicinalProduct.MedicinalProductName.InventedNamePart","MedicinalProduct.MedicinalProductName.InventedNamePart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.3","9.2.2.8.3","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.InventedNamePart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.ScientificNamePart","MedicinalProduct.MedicinalProductName.ScientificNamePart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.4","9.2.2.8.4","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.ScientificNamePart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.StrengthPart","MedicinalProduct.MedicinalProductName.StrengthPart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.5","9.2.2.8.5","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.StrengthPart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart","MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.6","9.2.2.8.6","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.PharmaceuticalDoseFormPart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.FormulationPart","MedicinalProduct.MedicinalProductName.FormulationPart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.7","9.2.2.8.7","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.FormulationPart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.IntendedUsePart","MedicinalProduct.MedicinalProductName.IntendedUsePart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.8","9.2.2.8.8","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.IntendedUsePart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.TargetPopulationPart","MedicinalProduct.MedicinalProductName.TargetPopulationPart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.9","9.2.2.8.9","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.TargetPopulationPart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.ContainerOrPackPart","MedicinalProduct.MedicinalProductName.ContainerOrPackPart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.10","9.2.2.8.10","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.ContainerOrPackPart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.DevicePart","MedicinalProduct.MedicinalProductName.DevicePart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.11","9.2.2.8.11","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.DevicePart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart","MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.12","9.2.2.8.12","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.TrademarkOrCompanyNamePart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.Time-PeriodPart","MedicinalProduct.MedicinalProductName.Time-PeriodPart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.13","9.2.2.8.13","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.Time-PeriodPart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.FlavourPart","MedicinalProduct.MedicinalProductName.FlavourPart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.14","9.2.2.8.14","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.FlavourPart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.DelimiterPart","MedicinalProduct.MedicinalProductName.DelimiterPart","","","",0,*,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/ST]]} {[]}
+","9.2.2.8.15","9.2.2.8.15","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.DelimiterPart",0,*,"",""
+"MedicinalProduct.MedicinalProductName.Country-Language","MedicinalProduct.MedicinalProductName.Country-Language","","","",1,*,"","","","BackboneElement {[CanonicalType[http://example.com/fhir/example/StructureDefinition/class]]} {[]}
+","9.2.2.9","9.2.2.9","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.Country-Language",1,*,"",""
+"MedicinalProduct.MedicinalProductName.Country-Language.Country","MedicinalProduct.MedicinalProductName.Country-Language.Country","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.9.2","9.2.2.9.2","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.Country-Language.Country",1,1,"",""
+"MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction","MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction","","","",0,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.9.3","9.2.2.9.3","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.Country-Language.Jurisdiction",0,1,"",""
+"MedicinalProduct.MedicinalProductName.Country-Language.Language","MedicinalProduct.MedicinalProductName.Country-Language.Language","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.9.4","9.2.2.9.4","","","","","","","","","",,,,,"",,,,"MedicinalProduct.MedicinalProductName.Country-Language.Language",1,1,"",""
+"MedicinalProduct.OrphanDesignation","MedicinalProduct.OrphanDesignation","","","",0,*,"","","","BackboneElement {[CanonicalType[http://example.com/fhir/example/StructureDefinition/class]]} {[]}
+","9.2.2.3","9.2.2.3","","","","","","","","","",,,,,"",,,,"MedicinalProduct.OrphanDesignation",0,*,"",""
+"MedicinalProduct.OrphanDesignation.OrphanIndicationType","MedicinalProduct.OrphanDesignation.OrphanIndicationType","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.3.2","9.2.2.3.2","","","","","","","","","",,,,,"",,,,"MedicinalProduct.OrphanDesignation.OrphanIndicationType",1,1,"",""
+"MedicinalProduct.OrphanDesignation.OrphanProcedureNumber","MedicinalProduct.OrphanDesignation.OrphanProcedureNumber","","","",0,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/II]]} {[]}
+","9.2.2.3.3","9.2.2.3.3","","","","","","","","","",,,,,"",,,,"MedicinalProduct.OrphanDesignation.OrphanProcedureNumber",0,1,"",""
+"MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus","MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.3.4","9.2.2.3.4","","","","","","","","","",,,,,"",,,,"MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationStatus",1,1,"",""
+"MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate","MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate","","","",0,1,"","","","date {[]} {[]}
+","9.2.2.3.5","9.2.2.3.5","","","","","","","","","",,,,,"",,,,"MedicinalProduct.OrphanDesignation.OrphanDesignationAuthorisationDate",0,1,"",""
+"MedicinalProduct.OrphanDesignation.OrphanDesignationNumber","MedicinalProduct.OrphanDesignation.OrphanDesignationNumber","","","",0,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/II]]} {[]}
+","9.2.2.3.6","9.2.2.3.6","","","","","","","","","",,,,,"",,,,"MedicinalProduct.OrphanDesignation.OrphanDesignationNumber",0,1,"",""
+"MedicinalProduct.ProductClassification","MedicinalProduct.ProductClassification","","","",0,*,"","","","BackboneElement {[CanonicalType[http://example.com/fhir/example/StructureDefinition/class]]} {[]}
+","9.2.2.4","9.2.2.4","","","","","","","","","",,,,,"",,,,"MedicinalProduct.ProductClassification",0,*,"",""
+"MedicinalProduct.ProductClassification.CodeSystem","MedicinalProduct.ProductClassification.CodeSystem","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.4.2","9.2.2.4.2","","","","","","","","","",,,,,"",,,,"MedicinalProduct.ProductClassification.CodeSystem",1,1,"",""
+"MedicinalProduct.ProductClassification.Value","MedicinalProduct.ProductClassification.Value","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.4.3","9.2.2.4.3","","","","","","","","","",,,,,"",,,,"MedicinalProduct.ProductClassification.Value",1,1,"",""
+"MedicinalProduct.ProductCross-Reference","MedicinalProduct.ProductCross-Reference","","","",0,*,"","","","BackboneElement {[CanonicalType[http://example.com/fhir/example/StructureDefinition/class]]} {[]}
+","9.2.2.7","9.2.2.7","","","","","","","","","",,,,,"",,,,"MedicinalProduct.ProductCross-Reference",0,*,"",""
+"MedicinalProduct.ProductCross-Reference.I-MPIDCross-Reference","MedicinalProduct.ProductCross-Reference.I_MPIDCross-Reference","","","",1,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/II]]} {[]}
+","9.2.2.7.2","9.2.2.7.2","","","","","","","","","",,,,,"",,,,"MedicinalProduct.ProductCross-Reference.I_MPIDCross-Reference",1,1,"",""
+"MedicinalProduct.ProductCross-Reference.ReferencedProductType","MedicinalProduct.ProductCross-Reference.ReferencedProductType","","","",0,1,"","","","Element {[CanonicalType[http://example.com/fhir/example/StructureDefinition/CD]]} {[]}
+","9.2.2.7.3","9.2.2.7.3","","","","","","","","","",,,,,"",,,,"MedicinalProduct.ProductCross-Reference.ReferencedProductType",0,1,"",""

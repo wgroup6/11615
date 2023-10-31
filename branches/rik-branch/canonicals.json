@@ -1,0 +1,51 @@
+[
+  {
+    "id": "my-ig",
+    "type": "ImplementationGuide",
+    "url": "http://example.com/fhir/example",
+    "version": "1.0.0",
+    "name": "ExampleIG"
+  },
+  {
+    "id": "InvestigationalMedicinalProduct",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/InvestigationalMedicinalProduct",
+    "version": "1.0.0",
+    "name": "IDMP11615Investigational"
+  },
+  {
+    "id": "MedicinalProduct",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/MedicinalProduct",
+    "version": "1.0.0",
+    "name": "IDMP11615Authorised"
+  },
+  {
+    "id": "coded",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/coded",
+    "version": "1.0.0",
+    "name": "coded"
+  },
+  {
+    "id": "group",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/group",
+    "version": "1.0.0",
+    "name": "group"
+  },
+  {
+    "id": "timestamp",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/timestamp",
+    "version": "1.0.0",
+    "name": "timestamp"
+  },
+  {
+    "id": "untyped",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/untyped",
+    "version": "1.0.0",
+    "name": "untyped"
+  }
+]
